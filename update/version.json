@@ -1,7 +1,7 @@
 {
   "version": "1.2.7",
   "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/",
-  "installerDownloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/raw/main/downloads/TSA-Kingsroad-Arabic.zip",
+  "installerDownloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Kingsroad-Arabic.zip",
   "minInstallerVersion": "1.2.6",
-  "changelog": "إصلاح حالة «غير مثبّت» بعد الإزالة — حمّل اللانشر الجديد من ZIP"
+  "changelog": "إصلاح حالة «غير مثبّت» بعد الإزالة — حمّل اللانشر الجديد"
 }

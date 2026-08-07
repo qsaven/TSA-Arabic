@@ -5,9 +5,9 @@
   "brand": "TSA Community",
   "taglineAr": "تعريب عربي خليجي — 100% ترجمة",
   "taglineEn": "Full Arabic localization (Gulf dialect)",
-  "downloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/raw/main/downloads/TSA-Kingsroad-Arabic.zip",
+  "downloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Kingsroad-Arabic.zip",
   "discordUrl": "https://discord.gg/Tsa1",
   "steamAppId": "3183280",
-  "changelog": "إصلاح حالة «غير مثبّت» بعد الإزالة — حمّل اللانشر الجديد",
+  "changelog": "إصلاح حالة «غير مثبّت» بعد الإزالة",
   "updated": "2026-08-08"
 }
