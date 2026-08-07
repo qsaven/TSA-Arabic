@@ -1,13 +1,13 @@
 ﻿{
-    "version":  "1.2.5",
-    "gameNameEn":  "Game of Thrones: Kingsroad",
-    "gameNameAr":  "ØµØ±Ø§Ø¹ Ø§Ù„Ø¹Ø±ÙˆØ´: Ø§Ù„Ø·Ø±ÙŠÙ‚ Ø§Ù„Ù…Ù„ÙƒÙŠ",
-    "brand":  "TSA Community",
-    "taglineAr":  "ØªØ¹Ø±ÙŠØ¨ Ø¹Ø±Ø¨ÙŠ Ø®Ù„ÙŠØ¬ÙŠ â€” 100% ØªØ±Ø¬Ù…Ø©",
-    "taglineEn":  "Full Arabic localization (Gulf dialect)",
-    "downloadUrl":  "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Kingsroad-Arabic.zip",
-    "discordUrl":  "https://discord.gg/Tsa1",
-    "steamAppId":  "3183280",
-    "changelog":  "ØªØ­Ø¯ÙŠØ« ØªØ¬Ø±ÙŠØ¨ÙŠ â€” Ø§Ø®ØªØ¨Ø§Ø± Ø§Ù„ØªØ­Ø¯ÙŠØ« Ø§Ù„ØªÙ„Ù‚Ø§Ø¦ÙŠ Ù…Ù† GitHub",
-    "updated":  "2026-08-07"
+  "version": "1.2.7",
+  "gameNameEn": "Game of Thrones: Kingsroad",
+  "gameNameAr": "صراع العروش: الطريق الملكي",
+  "brand": "TSA Community",
+  "taglineAr": "تعريب عربي خليجي — 100% ترجمة",
+  "taglineEn": "Full Arabic localization (Gulf dialect)",
+  "downloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/raw/main/downloads/TSA-Kingsroad-Arabic.zip",
+  "discordUrl": "https://discord.gg/Tsa1",
+  "steamAppId": "3183280",
+  "changelog": "إصلاح حالة «غير مثبّت» بعد الإزالة — حمّل اللانشر الجديد",
+  "updated": "2026-08-08"
 }
