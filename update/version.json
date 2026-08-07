@@ -1,5 +1,5 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/",
-  "changelog": "إصلاح: ما يطلب تحديث بعد ما يتحدّث"
+  "changelog": "تحديث تجريبي — اختبار التحديث التلقائي من GitHub"
 }
