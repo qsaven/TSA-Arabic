@@ -1,7 +1,7 @@
 {
-  "version": "1.2.7",
+  "version": "1.2.8",
   "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/",
   "installerDownloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Kingsroad-Arabic.zip",
   "minInstallerVersion": "1.2.6",
-  "changelog": "إصلاح حالة «غير مثبّت» بعد الإزالة — حمّل اللانشر الجديد"
+  "changelog": "تحسينات واجهة: سلبي/نشيط، المجوهرات/التمائم، تطوير، إصلاح أرقام شجرة السمات، مافي بدل ماكو"
 }
