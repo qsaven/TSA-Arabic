@@ -1,6 +1,6 @@
 {
-  "version": "1",
-  "launcherVersion": "1.3.4",
+  "version": "2",
+  "launcherVersion": "1.3.5",
   "launcherDownloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Arabic-Launcher.exe",
   "games": [
     {
@@ -9,7 +9,10 @@
       "nameAr": "صراع العروش: الطريق الملكي",
       "steamAppId": "3183280",
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/version.json",
-      "installMode": "singlePak"
+      "installMode": "singlePak",
+      "paksRelativeDir": "ProjectT/Content/Paks",
+      "exeRelativePath": "ProjectT/Binaries/Win64/ProjectT-Win64-Shipping.exe",
+      "commonFolderName": "Game of Thrones Kingsroad"
     },
     {
       "id": "palworld",
@@ -17,7 +20,10 @@
       "nameAr": "بالوورلد",
       "steamAppId": "1623730",
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/palworld/manifest.json",
-      "installMode": "manifestBundle"
+      "installMode": "manifestBundle",
+      "paksRelativeDir": "Pal/Content/Paks",
+      "exeRelativePath": "Pal/Binaries/Win64/Palworld-Win64-Shipping.exe",
+      "commonFolderName": "Palworld"
     },
     {
       "id": "crimson-desert",
@@ -25,7 +31,10 @@
       "nameAr": "الصحراء القرمزية",
       "steamAppId": "3321460",
       "version": "1.0.0",
-      "installMode": "scriptedApply"
+      "installMode": "scriptedApply",
+      "paksRelativeDir": "0012",
+      "exeRelativePath": "bin64/CrimsonDesert.exe",
+      "commonFolderName": "Crimson Desert"
     },
     {
       "id": "big-ambitions",
@@ -33,7 +42,10 @@
       "nameAr": "طموحات كبرى",
       "steamAppId": "1331550",
       "version": "1.0.0",
-      "installMode": "scriptedApply"
+      "installMode": "scriptedApply",
+      "paksRelativeDir": "Big Ambitions_Data",
+      "exeRelativePath": "Big Ambitions.exe",
+      "commonFolderName": "Big Ambitions"
     },
     {
       "id": "manor-lords",
@@ -41,7 +53,11 @@
       "nameAr": "أسياد العزبة",
       "steamAppId": "1363080",
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/manor-lords/manifest.json",
-      "installMode": "manifestBundle"
+      "installMode": "manifestBundle",
+      "paksRelativeDir": "ManorLords/Content/Paks",
+      "exeRelativePath": "ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe",
+      "commonFolderName": "Manor Lords",
+      "bannerUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/docs/manor-lords-banner.png"
     }
   ]
 }
