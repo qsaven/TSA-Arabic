@@ -1,7 +1,7 @@
 {
-  "version": "1.3.0",
-  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/",
-  "installerDownloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Kingsroad-Arabic.zip",
-  "minInstallerVersion": "1.2.6",
-  "changelog": "تعديل بعض المسميات"
+    "version":  "1.3.0",
+    "updateBaseUrl":  "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/",
+    "installerDownloadUrl":  "https://github.com/qsaven/kingsroad-arabic-updates/raw/main/downloads/TSA-Arabic-Launcher-v1.3.0-win-x64.zip",
+    "minInstallerVersion":  "1.3.0",
+    "changelog":  "TSA Launcher v1.3.0 - Kingsroad, Palworld, Crimson Desert, Big Ambitions"
 }

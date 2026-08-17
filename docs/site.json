@@ -1,25 +1,25 @@
-﻿{
+{
 
   "version": "1.3.0",
 
-  "gameNameEn": "Game of Thrones: Kingsroad",
+  "gameNameEn": "TSA Arabic Launcher",
 
-  "gameNameAr": "صراع العروش: الطريق الملكي",
+  "gameNameAr": "لانشر التعريبات العربية",
 
   "brand": "TSA Community",
 
-  "taglineAr": "تعريب عربي خليجي — 100% ترجمة",
+  "taglineAr": "لانشر واحد — Kingsroad • Palworld • Crimson Desert • Big Ambitions",
 
-  "taglineEn": "Full Arabic localization (Gulf dialect)",
+  "taglineEn": "One launcher — remote updates from GitHub",
 
-  "downloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Kingsroad-Arabic.zip",
+  "downloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/raw/main/downloads/TSA-Arabic-Launcher-v1.3.0-win-x64.zip",
 
   "discordUrl": "https://discord.gg/Tsa1",
 
-  "steamAppId": "3183280",
+  "steamAppId": "",
 
-  "changelog": "تعديل بعض المسميات",
+  "changelog": "لانشر TSA v1.3.0 — أربع ألعاب + تحديثات من GitHub بدون إعادة تحميل اللانشر",
 
-  "updated": "2026-08-15"
+  "updated": "2026-08-17"
 
 }

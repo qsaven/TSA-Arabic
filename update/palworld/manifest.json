@@ -1,0 +1,46 @@
+{
+  "id": "arabic-tsa",
+  "name": "ArabicTSA",
+  "version": "1.0.0",
+  "changelog": "تعريب عربي + خط TSA — اضبط لغة Steam على English",
+  "game": "Palworld",
+  "language_slot": "en",
+  "steam_language": "English",
+  "description": "Arabic localization + font for Palworld (TSA)",
+  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/palworld/",
+  "packaged_at": "2026-08-15T05:22:43.094413+00:00",
+  "total_size_bytes": 10345299,
+  "files": [
+    {
+      "file": "paks/zzzzArabicTSA-Font_P.pak",
+      "install_to": "Pal/Content/Paks/~mods/zzzzArabicTSA-Font_P.pak",
+      "role": "font",
+      "size_bytes": 7372412,
+      "sha256": "320e8d7624bc15c318b1c240759b871f45537956a3ff59a6a80790ca890129b8"
+    },
+    {
+      "file": "paks/zzzzArabicTSA-L10N_P.pak",
+      "install_to": "Pal/Content/Paks/~mods/zzzzArabicTSA-L10N_P.pak",
+      "role": "translation",
+      "size_bytes": 2972887,
+      "sha256": "727d41e7735ad1b4ade0babfef18afb2bf3387b09a162c755eab5d0012f3b6a6"
+    }
+  ],
+  "remove_on_install": [
+    "Pal/Content/Paks/zzzzArabicTSA-Font_P.pak",
+    "Pal/Content/Paks/zzzzArabicTSA-L10N_P.pak",
+    "Pal/Content/Paks/~mods/ArabicFont_P.pak",
+    "Pal/Content/Paks/~mods/ArabicTranslation_P.pak",
+    "Pal/Content/Paks/~mods/zzzzArabicTSA-UI_P.pak",
+    "Pal/Binaries/Win64/ue4ss/Mods/PalSchema/mods/ArabicTSA/zzzzArabicTSA-L10N_P.pak",
+    "Pal/Binaries/Win64/ue4ss/Mods/PalSchema/mods/ArabicTSA/translations/global/arabic.json",
+    "Pal/Binaries/Win64/ue4ss/Mods/PalSchema/mods/ArabicTSA/translations/en/arabic.json",
+    "Pal/Binaries/Win64/ue4ss/Mods/PalSchema/mods/ArabicTSA/translations/en/arabic.json.disabled"
+  ],
+  "notes": [
+    "Install both .pak files into Pal/Content/Paks/~mods/",
+    "Set Steam game language to English",
+    "Do NOT install ArabicFont_P.pak or ArabicTranslation_P.pak alongside this mod",
+    "UI RTL mod is disabled — do not ship zzzzArabicTSA-UI_P.pak"
+  ]
+}
