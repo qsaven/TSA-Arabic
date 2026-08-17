@@ -1,15 +1,15 @@
 ﻿{
   "id": "arabic-tsa",
   "name": "ArabicTSA",
-  "version": "1.0.3",
-  "changelog": "[تجريبي] اختبار تثبيت/تحديث التعريب — نفس محتوى 1.0.2 مع إصلاح مسار التحقق",
+  "version": "1.0.4",
+  "changelog": "صندوق البال العالمي + تعريب TSA مكان طاقم العمل — إزالة باتش القائمة المعطوب",
   "game": "Palworld",
   "language_slot": "en",
   "steam_language": "English",
   "description": "Arabic localization + font for Palworld (TSA)",
   "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/palworld/",
-  "packaged_at": "2026-08-17T23:35:00.000000+00:00",
-  "total_size_bytes": 10923745,
+  "packaged_at": "2026-08-17T21:45:00.000000+00:00",
+  "total_size_bytes": 10882962,
   "files": [
     {
       "file": "paks/zzzzArabicTSA-Font_P.pak",
@@ -22,15 +22,8 @@
       "file": "paks/zzzzArabicTSA-L10N_P.pak",
       "install_to": "Pal/Content/Paks/~mods/zzzzArabicTSA-L10N_P.pak",
       "role": "translation",
-      "size_bytes": 3510532,
-      "sha256": "80350fbcc3a2bf6368201d91bda491dfbeb16d18cbd76b2f5f3cae6623408728"
-    },
-    {
-      "file": "paks/zzzzArabicTSA-Title_P.pak",
-      "install_to": "Pal/Content/Paks/~mods/zzzzArabicTSA-Title_P.pak",
-      "role": "ui",
-      "size_bytes": 40801,
-      "sha256": "bde93f4a7321f0ed51e3d6112a09e4c04f24db0d6ef1eb29087ed0491d19dbd8"
+      "size_bytes": 3510550,
+      "sha256": "e77e012a5b42c7fd021795b48f3f8ef24d1b5a9308fcb5aaac513689c5fb9aa1"
     }
   ],
   "remove_on_install": [
@@ -47,8 +40,6 @@
   ],
   "notes": [
     "Install all .pak files into Pal/Content/Paks/~mods/",
-    "Set Steam game language to English",
-    "Do NOT install ArabicFont_P.pak or ArabicTranslation_P.pak alongside this mod",
-    "UI RTL mod is disabled — do not ship zzzzArabicTSA-UI_P.pak"
+    "Set Steam game language to English"
   ]
 }
