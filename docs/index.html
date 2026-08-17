@@ -3,47 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>لانشر التعريبات العربية | TSA Community</title>
-  <meta name="description" content="لانشر TSA — تعريبات عربية لـ Manor Lords و Palworld و Kingsroad وغيرها. تثبيت سهل وتحديث تلقائي من GitHub.">
-  <meta name="keywords" content="TSA, تعريب, Arabic, Manor Lords, أسياد العزبة, Palworld, Kingsroad, Launcher">
+  <title>تعريب Game of Thrones: Kingsroad | TSA Community</title>
+  <meta name="description" content="تعريب عربي خليجي كامل للعبة Game of Thrones: Kingsroad — صراع العروش: الطريق الملكي. مثبت سهل وتحديث تلقائي.">
+  <meta name="keywords" content="Kingsroad, Game of Thrones, تعريب, Arabic, TSA, صراع العروش">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <style>
-    .featured-card {
-      margin-top: 2rem;
-      border: 1px solid var(--border);
-      border-radius: 1rem;
-      overflow: hidden;
-      background: linear-gradient(180deg, rgba(0,196,176,0.08), rgba(16,20,28,0.95));
-      box-shadow: var(--shadow);
-    }
-    .featured-card img {
-      width: 100%;
-      display: block;
-      max-height: 360px;
-      object-fit: cover;
-    }
-    .featured-body { padding: 1.25rem 1.5rem 1.5rem; }
-    .featured-body h2 { margin: 0 0 0.35rem; font-size: 1.5rem; }
-    .featured-body p { margin: 0; color: var(--muted); }
-    .games-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1rem;
-      margin-top: 1.5rem;
-    }
-    .game-pill {
-      border: 1px solid var(--border);
-      border-radius: 0.75rem;
-      padding: 1rem;
-      background: var(--surface);
-    }
-    .game-pill strong { display: block; margin-bottom: 0.25rem; }
-    .game-pill span { color: var(--muted); font-size: 0.92rem; }
-    .game-pill.new { border-color: rgba(0,196,176,0.45); box-shadow: 0 0 0 1px rgba(0,196,176,0.12) inset; }
-  </style>
 </head>
 <body>
   <header class="site-header">
@@ -53,9 +19,9 @@
         <span class="brand-sub">Community</span>
       </div>
       <nav class="header-nav">
-        <a href="#featured">الجديد</a>
-        <a href="#games">الألعاب</a>
+        <a href="#about">عن التعريب</a>
         <a href="#install">التثبيت</a>
+        <a href="#faq">أسئلة</a>
         <a href="#download" class="nav-cta">تحميل</a>
       </nav>
     </div>
@@ -66,16 +32,16 @@
       <div class="hero-glow"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">لانشر التعريبات العربية</p>
-          <h1 class="title-ar" id="game-name-ar">لانشر التعريبات العربية</h1>
-          <p class="title-en" id="game-name-en">TSA Arabic Launcher</p>
-          <p class="lead" id="tagline-ar">لانشر واحد — تعريبات عربية لخمس ألعاب + تحديثات تلقائية</p>
-          <p class="lead-en" id="tagline-en">One launcher — Arabic localizations with remote updates</p>
+          <p class="eyebrow">تعريب رسمي من المجتمع</p>
+          <h1 class="title-ar" id="game-name-ar">صراع العروش: الطريق الملكي</h1>
+          <p class="title-en" id="game-name-en">Game of Thrones: Kingsroad</p>
+          <p class="lead" id="tagline-ar">تعريب عربي خليجي — 100% ترجمة للقوائم والحوار والمهام</p>
+          <p class="lead-en" id="tagline-en">Full Arabic localization (Gulf dialect)</p>
 
           <div class="hero-actions">
             <a href="#" id="download-btn" class="btn btn-primary">
-              <span>تحميل اللانشر</span>
-              <small id="version-label">v1.3.4</small>
+              <span>تحميل المثبت</span>
+              <small id="version-label">v1.2.5</small>
             </a>
             <a href="https://discord.gg/Tsa1" id="discord-btn" class="btn btn-secondary" target="_blank" rel="noopener">Discord</a>
           </div>
@@ -83,7 +49,7 @@
           <ul class="hero-badges">
             <li>Windows / Steam</li>
             <li>تحديث تلقائي</li>
-            <li>خمس ألعاب مدعومة</li>
+            <li>مثبت واحد</li>
           </ul>
         </div>
 
@@ -91,16 +57,16 @@
           <h2>معلومات سريعة</h2>
           <dl>
             <div>
-              <dt>الإصدار</dt>
-              <dd id="card-version">1.3.4</dd>
-            </div>
-            <div>
-              <dt>الجديد</dt>
-              <dd id="card-featured-ar">أسياد العزبة</dd>
-            </div>
-            <div>
               <dt>اللعبة</dt>
-              <dd id="card-featured-en">Manor Lords</dd>
+              <dd id="card-game-en">Game of Thrones: Kingsroad</dd>
+            </div>
+            <div>
+              <dt>الاسم العربي</dt>
+              <dd id="card-game-ar">صراع العروش: الطريق الملكي</dd>
+            </div>
+            <div>
+              <dt>الإصدار</dt>
+              <dd id="card-version">1.2.5</dd>
             </div>
             <div>
               <dt>المنصة</dt>
@@ -111,7 +77,7 @@
               <dd>English (مطلوب)</dd>
             </div>
             <div>
-              <dt>المجتمع</dt>
+              <dt>المطور</dt>
               <dd>TSA Community</dd>
             </div>
           </dl>
@@ -119,70 +85,60 @@
       </div>
     </section>
 
-    <section id="featured" class="section">
+    <section id="about" class="section">
       <div class="container">
         <div class="section-head">
-          <h2>الإصدار الجديد</h2>
-          <p class="section-en">New release — Manor Lords</p>
+          <h2>عن التعريب</h2>
+          <p class="section-en">About this mod</p>
         </div>
-        <article class="featured-card">
-          <img id="featured-image" src="manor-lords-banner.png" alt="أسياد العزبة — Manor Lords">
-          <div class="featured-body">
-            <h2 id="featured-title-ar">أسياد العزبة</h2>
-            <p id="featured-title-en">Manor Lords — Arabic localization v1.0.0</p>
-            <p class="changelog" id="changelog" style="margin-top:0.75rem"></p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="games" class="section section-alt">
-      <div class="container">
-        <div class="section-head">
-          <h2>الألعاب المدعومة</h2>
-          <p class="section-en">Supported games</p>
-        </div>
-        <div class="games-list">
-          <div class="game-pill new"><strong>أسياد العزبة</strong><span>Manor Lords — جديد</span></div>
-          <div class="game-pill"><strong>بالوورلد</strong><span>Palworld</span></div>
-          <div class="game-pill"><strong>صراع العروش: الطريق الملكي</strong><span>Kingsroad</span></div>
-          <div class="game-pill"><strong>الصحراء القرمزية</strong><span>Crimson Desert</span></div>
-          <div class="game-pill"><strong>طموحات كبرى</strong><span>Big Ambitions</span></div>
+        <div class="cards-grid">
+          <article class="info-card">
+            <h3>ترجمة شاملة</h3>
+            <p>تعريب كامل للعبة <strong>Game of Thrones: Kingsroad</strong> (<strong>صراع العروش: الطريق الملكي</strong>) — القوائم، المهام، الحوار، المعدات، والمهارات.</p>
+          </article>
+          <article class="info-card">
+            <h3>لهجة خليجية</h3>
+            <p>نصوص مكتوبة بلهجة عربية خليجية طبيعية، مناسبة للاعبين في المنطقة.</p>
+          </article>
+          <article class="info-card">
+            <h3>تحديث تلقائي</h3>
+            <p>المثبت يفحص GitHub تلقائياً. إذا فيه تحديث جديد، ينزل ملف التعريب بدون ما تحتاج EXE جديد.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="install" class="section">
+    <section id="install" class="section section-alt">
       <div class="container install-grid">
         <div>
           <div class="section-head">
-            <h2>شرح التثبيت</h2>
+            <h2>شرح التثبيت والتحديث</h2>
             <p class="section-en">Installation guide</p>
           </div>
           <ol class="steps">
             <li>
-              <strong>حمّل اللانشر</strong>
-              <span>ملف <code>TSA-Arabic-Launcher.exe</code> من الزر أدناه.</span>
+              <strong>أغلق اللعبة</strong>
+              <span>تأكد إن Kingsroad مو شغالة قبل التثبيت.</span>
             </li>
             <li>
-              <strong>افتح اللانشر واختر اللعبة</strong>
-              <span>مثلاً <strong>أسياد العزبة</strong> (Manor Lords).</span>
+              <strong>حمّل وافتح المثبت</strong>
+              <span>ملف <code>TSA-Kingsroad-Arabic.exe</code> من ملف ZIP.</span>
+            </li>
+            <li>
+              <strong>تحذير Windows</strong>
+              <span>More info → Run anyway (الملف غير موقّع حالياً).</span>
             </li>
             <li>
               <strong>حدّد مسار Steam</strong>
               <span>اكتشاف تلقائي أو تحديد يدوي لمجلد اللعبة.</span>
             </li>
             <li>
-              <strong>اضغط تثبيت</strong>
-              <span>اللانشر ينسخ ملف التعريب لمجلد <code>~mods</code>.</span>
-            </li>
-            <li>
               <strong>إعدادات اللعبة</strong>
-              <span>Language: <strong>English</strong> في Steam ثم شغّل اللعبة.</span>
+              <span>Language: <strong>English</strong> — ثم ابدأ <strong>New Game</strong> أو كمل حفظك.</span>
             </li>
             <li>
-              <strong>التحديثات</strong>
-              <span>تحديثات التعريب واللانشر تصل من داخل التطبيق.</span>
+              <strong>التحديث</strong>
+              <span>إذا ظهر «تحديث جديد» → اضغط «تحديث الآن».</span>
             </li>
           </ol>
         </div>
@@ -190,12 +146,39 @@
         <aside class="warn-box">
           <h3>مهم قبل اللعب</h3>
           <ul>
-            <li>التعريب يشتغل مع اللغة <strong>English</strong> في إعدادات Steam للعبة.</li>
-            <li>أغلق اللعبة قبل التثبيت أو التحديث.</li>
-            <li>زر «إزالة» يحذف ملفات التعريب فقط — ما يمس اللعبة الأصلية.</li>
+            <li>التعريب يشتغل مع اللغة <strong>English</strong> في إعدادات اللعبة.</li>
+            <li>لازم تثبيت Steam ونسخة Windows من اللعبة.</li>
+            <li>زر «إزالة» في المثبت يحذف ملف التعريب فقط — ما يمس اللعبة الأصلية.</li>
             <li>للدعم والتحديثات: <a href="https://discord.gg/Tsa1">Discord TSA</a></li>
           </ul>
         </aside>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>أسئلة شائعة</h2>
+          <p class="section-en">FAQ</p>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>هل أحتاج EXE جديد مع كل تحديث؟</summary>
+            <p>لا. بعد أول تثبيت، المثبت ينزل التحديثات من GitHub تلقائياً. افتح المثبت واضغط «تحديث الآن».</p>
+          </details>
+          <details>
+            <summary>Why English in game settings?</summary>
+            <p>The mod replaces English string files. Set in-game Language to English for Arabic text to appear correctly.</p>
+          </details>
+          <details>
+            <summary>هل يعمل مع Epic أو Game Pass؟</summary>
+            <p>حالياً المثبت مضبوط على Steam. إذا كانت نسختك على منصة ثانية، تواصل معنا على Discord.</p>
+          </details>
+          <details>
+            <summary>كيف أزيل التعريب؟</summary>
+            <p>افتح المثبت واضغط «إزالة». أو احذف ملف <code>ProjectT-Windows_P.pak</code> من مجلد Paks في اللعبة.</p>
+          </details>
+        </div>
       </div>
     </section>
 
@@ -203,10 +186,11 @@
       <div class="container download-box">
         <div>
           <h2>جاهز للعب؟</h2>
-          <p>حمّل اللانشر، ثبّت تعريب <strong>أسياد العزبة</strong> أو أي لعبة مدعومة، وانضم لمجتمع TSA على Discord.</p>
+          <p>حمّل المثبت، ثبّت التعريب، وانضم لمجتمع TSA على Discord.</p>
+          <p class="changelog" id="changelog"></p>
         </div>
         <div class="download-actions">
-          <a href="#" id="download-btn-2" class="btn btn-primary btn-large">تحميل TSA-Arabic-Launcher.exe</a>
+          <a href="#" id="download-btn-2" class="btn btn-primary btn-large">تحميل TSA-Kingsroad-Arabic.zip</a>
           <a href="https://discord.gg/Tsa1" class="btn btn-secondary btn-large" target="_blank" rel="noopener">Discord</a>
         </div>
       </div>
@@ -215,8 +199,8 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© TSA Community — <span id="footer-game">لانشر التعريبات العربية</span></p>
-      <p class="footer-note">Fan translations — not affiliated with game publishers.</p>
+      <p>© TSA Community — تعريب <span id="footer-game">Game of Thrones: Kingsroad</span></p>
+      <p class="footer-note">Fan translation — not affiliated with Netmarble or HBO.</p>
     </div>
   </footer>
 

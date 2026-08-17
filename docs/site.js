@@ -20,24 +20,14 @@ function applySiteData(data) {
   setText('game-name-en', data.gameNameEn);
   setText('tagline-ar', data.taglineAr);
   setText('tagline-en', data.taglineEn);
+  setText('card-game-en', data.gameNameEn);
+  setText('card-game-ar', data.gameNameAr);
   setText('card-version', data.version || '');
-  setText('card-featured-ar', data.featuredGameAr);
-  setText('card-featured-en', data.featuredGameEn);
-  setText('featured-title-ar', data.featuredGameAr);
-  setText('featured-title-en', data.featuredGameEn ? `${data.featuredGameEn} — Arabic localization` : '');
-  setText('footer-game', data.gameNameAr || data.gameNameEn);
+  setText('footer-game', data.gameNameEn);
   setText('version-label', version);
   setText('changelog', data.changelog ? `آخر تحديث (${data.updated || ''}): ${data.changelog}` : '');
 
-  document.title = `${data.gameNameAr || 'TSA'} | ${data.brand || 'TSA Community'}`;
-
-  if (data.featuredImage) {
-    const img = document.getElementById('featured-image');
-    if (img) {
-      img.src = data.featuredImage;
-      img.alt = data.featuredGameAr || data.featuredGameEn || 'Featured game';
-    }
-  }
+  document.title = `تعريب ${data.gameNameEn} | ${data.brand || 'TSA Community'}`;
 
   if (data.downloadUrl) {
     for (const id of ['download-btn', 'download-btn-2']) {
