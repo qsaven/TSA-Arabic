@@ -1,14 +1,14 @@
 ﻿{
   "id": "arabic-tsa",
   "name": "ArabicTSA",
-  "version": "1.0.2",
-  "changelog": "إصلاح تعريب دليل النجاة والمذكرات + إضافة «تعريب TSA» في القائمة الرئيسية",
+  "version": "1.0.3",
+  "changelog": "[تجريبي] اختبار تثبيت/تحديث التعريب — نفس محتوى 1.0.2 مع إصلاح مسار التحقق",
   "game": "Palworld",
   "language_slot": "en",
   "steam_language": "English",
   "description": "Arabic localization + font for Palworld (TSA)",
   "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/palworld/",
-  "packaged_at": "2026-08-17T20:00:05.161728+00:00",
+  "packaged_at": "2026-08-17T23:35:00.000000+00:00",
   "total_size_bytes": 10923745,
   "files": [
     {
