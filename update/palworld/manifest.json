@@ -1,15 +1,15 @@
-{
+﻿{
   "id": "arabic-tsa",
   "name": "ArabicTSA",
-  "version": "1.0.1",
-  "changelog": "إصلاح تعريب دليل النجاة، النصائح، المذكرات، أوصاف البالز، ومهارات الشريك",
+  "version": "1.0.2",
+  "changelog": "إصلاح تعريب دليل النجاة والمذكرات + إضافة «تعريب TSA» في القائمة الرئيسية",
   "game": "Palworld",
   "language_slot": "en",
   "steam_language": "English",
   "description": "Arabic localization + font for Palworld (TSA)",
   "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/palworld/",
-  "packaged_at": "2026-08-17T19:27:25.319982+00:00",
-  "total_size_bytes": 10882964,
+  "packaged_at": "2026-08-17T20:00:05.161728+00:00",
+  "total_size_bytes": 10923745,
   "files": [
     {
       "file": "paks/zzzzArabicTSA-Font_P.pak",
@@ -22,8 +22,15 @@
       "file": "paks/zzzzArabicTSA-L10N_P.pak",
       "install_to": "Pal/Content/Paks/~mods/zzzzArabicTSA-L10N_P.pak",
       "role": "translation",
-      "size_bytes": 3510552,
-      "sha256": "e47e29b291757f41320a8c5581010cd5ee158f26b12525c904957347be7d5483"
+      "size_bytes": 3510532,
+      "sha256": "80350fbcc3a2bf6368201d91bda491dfbeb16d18cbd76b2f5f3cae6623408728"
+    },
+    {
+      "file": "paks/zzzzArabicTSA-Title_P.pak",
+      "install_to": "Pal/Content/Paks/~mods/zzzzArabicTSA-Title_P.pak",
+      "role": "ui",
+      "size_bytes": 40801,
+      "sha256": "bde93f4a7321f0ed51e3d6112a09e4c04f24db0d6ef1eb29087ed0491d19dbd8"
     }
   ],
   "remove_on_install": [
@@ -32,13 +39,14 @@
     "Pal/Content/Paks/~mods/ArabicFont_P.pak",
     "Pal/Content/Paks/~mods/ArabicTranslation_P.pak",
     "Pal/Content/Paks/~mods/zzzzArabicTSA-UI_P.pak",
+    "Pal/Content/Paks/~mods/zzzzArabicTSA-Title_P.pak",
     "Pal/Binaries/Win64/ue4ss/Mods/PalSchema/mods/ArabicTSA/zzzzArabicTSA-L10N_P.pak",
     "Pal/Binaries/Win64/ue4ss/Mods/PalSchema/mods/ArabicTSA/translations/global/arabic.json",
     "Pal/Binaries/Win64/ue4ss/Mods/PalSchema/mods/ArabicTSA/translations/en/arabic.json",
     "Pal/Binaries/Win64/ue4ss/Mods/PalSchema/mods/ArabicTSA/translations/en/arabic.json.disabled"
   ],
   "notes": [
-    "Install both .pak files into Pal/Content/Paks/~mods/",
+    "Install all .pak files into Pal/Content/Paks/~mods/",
     "Set Steam game language to English",
     "Do NOT install ArabicFont_P.pak or ArabicTranslation_P.pak alongside this mod",
     "UI RTL mod is disabled — do not ship zzzzArabicTSA-UI_P.pak"
