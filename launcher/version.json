@@ -1,10 +1,10 @@
 ﻿{
-  "version": "1.3.9",
+  "version": "1.3.10",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.9-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.9-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "إصلاح تحديث اللانشر من الموقع: يستبدل الملف الأصلي في التحميلات حتى ما يرجع 1.3.6 بعد الإغلاق",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.10-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.10-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "إصلاح إزالة تعريب أسياد العزبة — يحذف ملفات ~mods حتى ترجع اللعبة إنجليزي",
   "minVersion": "1.3.0",
-  "sha256": "08fd9fd502b63ea1a96bb3f833644db2d9ec0b1934ece46e081c399217d45888",
-  "sizeBytes": 84672841
+  "sha256": "ce9926ad8724cf638206e30aceced728b5489a7a5dc9ea1aad804078dfe68f34",
+  "sizeBytes": 84673624
 }

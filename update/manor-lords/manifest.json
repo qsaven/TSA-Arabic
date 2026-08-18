@@ -19,7 +19,8 @@
     }
   ],
   "remove_on_install": [
-    "ManorLords/Content/Paks/zArabicTSA_P.pak"
+    "ManorLords/Content/Paks/zArabicTSA_P.pak",
+    "ManorLords/Content/Paks/~mods/zArabicTSA_P.pak"
   ],
   "notes": [
     "Install zArabicTSA_P.pak into ManorLords/Content/Paks/~mods/",
