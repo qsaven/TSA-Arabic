@@ -1,0 +1,13 @@
+{
+  "id": "crimson-desert",
+  "name": "Crimson Desert Arabic TSA",
+  "version": "1.0.0",
+  "changelog": "تعريب عربي + خط 3dil + إصلاحات الكلاود الآمنة (ترجمة / واجهة / keyguide).",
+  "game": "Crimson Desert",
+  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/",
+  "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
+  "files": [],
+  "notes": [
+    "File pack can be added here later. Until then the launcher uses the local apply script if present."
+  ]
+}

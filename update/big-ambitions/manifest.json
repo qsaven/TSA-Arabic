@@ -1,0 +1,13 @@
+{
+  "id": "big-ambitions",
+  "name": "Big Ambitions Arabic TSA",
+  "version": "1.0.0",
+  "changelog": "تعريب عربي شامل + خط Rubik + أسماء وعناوين وواجهات.",
+  "game": "Big Ambitions",
+  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/",
+  "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
+  "files": [],
+  "notes": [
+    "File pack can be added here later. Until then the launcher uses the local apply script if present."
+  ]
+}
