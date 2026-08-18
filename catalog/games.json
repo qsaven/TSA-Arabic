@@ -31,6 +31,7 @@
       "paksRelativeDir": "Pal/Content/Paks",
       "exeRelativePath": "Pal/Binaries/Win64/Palworld-Win64-Shipping.exe",
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/palworld/manifest.json",
+      "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/palworld.png",
       "ensureEnglishCulture": true
     },
     {
@@ -63,6 +64,7 @@
       "applyScriptRelativePath": "patch/install_tsa.ps1",
       "requiredDirs": ["Big Ambitions_Data"],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
+      "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/big-ambitions.png",
       "version": "1.0.0",
       "changelog": "تعريب عربي شامل + خط Rubik + أسماء وعناوين وواجهات."
     },
