@@ -1,10 +1,10 @@
 {
-  "version": "1.3.4",
+  "version": "1.3.5",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.4-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.4-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "كتالوج ألعاب عن بُعد من GitHub — إضافة أو حذف أي لعبة بدون تحميل اللانشر + تحديث التعريبات واللانشر تلقائياً",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.5-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.5-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "إصلاح كراش Parameter is not valid عند رسم أغلفة الألعاب",
   "minVersion": "1.3.0",
-  "sha256": "44b18b1db527757952eab7689ba21faa3b983831551bb87d80e95e023458d70e",
-  "sizeBytes": 84669483
+  "sha256": "d7fe95f269152bd3bf1bd3c455d9bb1a44ba225086cc2d950258a826801db493",
+  "sizeBytes": 84670328
 }
