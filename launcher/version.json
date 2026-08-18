@@ -1,10 +1,10 @@
 ﻿{
-  "version": "1.3.8",
+  "version": "1.3.9",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.8-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.8-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "إصلاح أرقام إصدارات التعريب — كل لعبة تعرض إصدارها الصحيح بدل رقم Palworld",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.9-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.9-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "إصلاح تحديث اللانشر من الموقع: يستبدل الملف الأصلي في التحميلات حتى ما يرجع 1.3.6 بعد الإغلاق",
   "minVersion": "1.3.0",
-  "sha256": "00e9a9327f6fc3871e7c638a62fb9bfac4c43645b86c70002e7d26a746f2e895",
-  "sizeBytes": 84671994
+  "sha256": "08fd9fd502b63ea1a96bb3f833644db2d9ec0b1934ece46e081c399217d45888",
+  "sizeBytes": 84672841
 }
