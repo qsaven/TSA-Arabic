@@ -7,7 +7,7 @@
   "language_slot": "en",
   "steam_language": "English",
   "description": "Arabic localization + font for Palworld (TSA)",
-  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/palworld/",
+  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/palworld/",
   "packaged_at": "2026-08-17T21:45:00.000000+00:00",
   "total_size_bytes": 10882962,
   "files": [

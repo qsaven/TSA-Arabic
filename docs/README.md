@@ -17,7 +17,7 @@ powershell -File scripts\sync-website.ps1
 
 ## Publish to GitHub Pages
 
-Uses repo: `qsaven/kingsroad-arabic-updates` → folder `docs/`
+Uses repo: `qsaven/TSA-Arabic` → folder `docs/`
 
 ```powershell
 powershell -File scripts\publish-website.ps1
@@ -25,14 +25,14 @@ powershell -File scripts\publish-website.ps1
 
 Then on GitHub: **Settings → Pages → Source: Deploy from branch `main` / folder `/docs`**
 
-Site URL: https://qsaven.github.io/kingsroad-arabic-updates/
+Site URL: https://qsaven.github.io/TSA-Arabic/
 
 ## Download link
 
 Upload `TSA-Kingsroad-Arabic.zip` to **GitHub Releases** on the updates repo, then set `downloadUrl` in `site.json`:
 
 ```
-https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Kingsroad-Arabic.zip
+https://github.com/qsaven/TSA-Arabic/releases/latest/download/TSA-Kingsroad-Arabic.zip
 ```
 
 ## Local preview

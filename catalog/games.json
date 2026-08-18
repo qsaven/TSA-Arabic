@@ -1,14 +1,14 @@
 {
   "version": "1",
   "launcherVersion": "1.3.0",
-  "launcherDownloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Arabic-Launcher.exe",
+  "launcherDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.3-launcher/TSA-Arabic-Launcher.exe",
   "games": [
     {
       "id": "kingsroad",
       "nameEn": "Game of Thrones: Kingsroad",
       "nameAr": "صراع العروش: الطريق الملكي",
       "steamAppId": "3183280",
-      "manifestUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/version.json",
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/version.json",
       "installMode": "singlePak"
     },
     {
@@ -16,7 +16,7 @@
       "nameEn": "Palworld",
       "nameAr": "بالوورلد",
       "steamAppId": "1623730",
-      "manifestUrl": "https://raw.githubusercontent.com/qsaven/kingsroad-arabic-updates/main/update/palworld/manifest.json",
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/palworld/manifest.json",
       "installMode": "manifestBundle"
     },
     {

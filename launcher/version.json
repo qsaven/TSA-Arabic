@@ -1,8 +1,8 @@
 ﻿{
   "version": "1.3.3",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/kingsroad-arabic-updates/releases/latest/download/TSA-Arabic-Launcher.exe",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.3-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.3-launcher/TSA-Arabic-Launcher.exe",
   "changelog": "تحديث تلقائي داخل التطبيق + Palworld v1.0.4 + زر تحديث التطبيق",
   "minVersion": "1.3.0",
   "sha256": "eb9c93a12141bd5f9297d4a4595e869d7307c3ca9e3ed7b64a3cc94f89a6a303",
