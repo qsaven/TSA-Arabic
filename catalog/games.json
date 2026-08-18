@@ -1,7 +1,7 @@
 {
   "version": "2",
-  "launcherVersion": "1.3.7",
-  "launcherDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.7-launcher/TSA-Arabic-Launcher.exe",
+  "launcherVersion": "1.3.8",
+  "launcherDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.8-launcher/TSA-Arabic-Launcher.exe",
   "notes": "Any game in this list appears in the launcher. Add an object to publish. Delete it or set enabled=false to hide. New games default to update/{id}/manifest.json on GitHub.",
   "games": [
     {
@@ -17,7 +17,8 @@
       "exeRelativePath": "ProjectT/Binaries/Win64/ProjectT-Win64-Shipping.exe",
       "pakFileName": "ProjectT-Windows_P.pak",
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/version.json",
-      "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/kingsroad.png"
+      "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/kingsroad.png",
+      "version": "1.3.0"
     },
     {
       "id": "palworld",
@@ -32,7 +33,8 @@
       "exeRelativePath": "Pal/Binaries/Win64/Palworld-Win64-Shipping.exe",
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/palworld/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/palworld.png",
-      "ensureEnglishCulture": true
+      "ensureEnglishCulture": true,
+      "version": "1.0.4"
     },
     {
       "id": "crimson-desert",
