@@ -1,82 +1,77 @@
 {
-    "version":  "2",
-    "launcherVersion":  "1.3.4",
-    "launcherDownloadUrl":  "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.4-launcher/TSA-Arabic-Launcher.exe",
-    "notes":  "Any game in this list appears in the launcher. Add an object to publish. Delete it or set enabled=false to hide. New games default to update/{id}/manifest.json on GitHub.",
-    "games":  [
-                  {
-                      "id":  "kingsroad",
-                      "enabled":  true,
-                      "availability":  "available",
-                      "nameEn":  "Game of Thrones: Kingsroad",
-                      "nameAr":  "ØµØ±Ø§Ø¹ Ø§Ù„Ø¹Ø±ÙˆØ´: Ø§Ù„Ø·Ø±ÙŠÙ‚ Ø§Ù„Ù…Ù„ÙƒÙŠ",
-                      "steamAppId":  "3183280",
-                      "commonFolderName":  "Game of Thrones Kingsroad",
-                      "installMode":  "singlePak",
-                      "paksRelativeDir":  "ProjectT/Content/Paks",
-                      "exeRelativePath":  "ProjectT/Binaries/Win64/ProjectT-Win64-Shipping.exe",
-                      "pakFileName":  "ProjectT-Windows_P.pak",
-                      "manifestUrl":  "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/version.json"
-                  },
-                  {
-                      "id":  "palworld",
-                      "enabled":  true,
-                      "availability":  "available",
-                      "nameEn":  "Palworld",
-                      "nameAr":  "Ø¨Ø§Ù„ÙˆÙˆØ±Ù„Ø¯",
-                      "steamAppId":  "1623730",
-                      "commonFolderName":  "Palworld",
-                      "installMode":  "manifestBundle",
-                      "paksRelativeDir":  "Pal/Content/Paks",
-                      "exeRelativePath":  "Pal/Binaries/Win64/Palworld-Win64-Shipping.exe",
-                      "manifestUrl":  "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/palworld/manifest.json",
-                      "ensureEnglishCulture":  true
-                  },
-                  {
-                      "id":  "crimson-desert",
-                      "enabled":  true,
-                      "availability":  "available",
-                      "nameEn":  "Crimson Desert",
-                      "nameAr":  "Ø§Ù„ØµØ­Ø±Ø§Ø¡ Ø§Ù„Ù‚Ø±Ù…Ø²ÙŠØ©",
-                      "steamAppId":  "3321460",
-                      "commonFolderName":  "Crimson Desert",
-                      "installMode":  "scriptedApply",
-                      "exeRelativePath":  "bin64/CrimsonDesert.exe",
-                      "applyScriptRelativePath":  "tools/apply_launcher_pack.py",
-                      "requiredDirs":  [
-                                           "0012",
-                                           "0020"
-                                       ],
-                      "manifestUrl":  "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
-                      "version":  "1.0.0",
-                      "changelog":  "ØªØ¹Ø±ÙŠØ¨ Ø¹Ø±Ø¨ÙŠ + Ø®Ø· 3dil + Ø¥ØµÙ„Ø§Ø­Ø§Øª Ø§Ù„ÙƒÙ„Ø§ÙˆØ¯ Ø§Ù„Ø¢Ù…Ù†Ø© (ØªØ±Ø¬Ù…Ø© / ÙˆØ§Ø¬Ù‡Ø© / keyguide)."
-                  },
-                  {
-                      "id":  "big-ambitions",
-                      "enabled":  true,
-                      "availability":  "available",
-                      "nameEn":  "Big Ambitions",
-                      "nameAr":  "Ø·Ù…ÙˆØ­Ø§Øª ÙƒØ¨Ø±Ù‰",
-                      "steamAppId":  "1331550",
-                      "commonFolderName":  "Big Ambitions",
-                      "installMode":  "scriptedApply",
-                      "exeRelativePath":  "Big Ambitions.exe",
-                      "applyScriptRelativePath":  "patch/install_tsa.ps1",
-                      "requiredDirs":  [
-                                           "Big Ambitions_Data"
-                                       ],
-                      "manifestUrl":  "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
-                      "version":  "1.0.0",
-                      "changelog":  "ØªØ¹Ø±ÙŠØ¨ Ø¹Ø±Ø¨ÙŠ Ø´Ø§Ù…Ù„ + Ø®Ø· Rubik + Ø£Ø³Ù…Ø§Ø¡ ÙˆØ¹Ù†Ø§ÙˆÙŠÙ† ÙˆÙˆØ§Ø¬Ù‡Ø§Øª."
-                  },
-                  {
-                      "id":  "soon-2",
-                      "enabled":  true,
-                      "availability":  "comingSoon",
-                      "nameEn":  "TSA Project #2",
-                      "nameAr":  "Ù…Ø´Ø±ÙˆØ¹ TSA #2",
-                      "teaserTitle":  "Ù‚ÙŠØ¯ Ø§Ù„ØªØ·ÙˆÙŠØ±",
-                      "teaserSubtitle":  "ØªØ§Ø¨Ø¹ TSA Ù„Ù„ØªÙ†Ø¨ÙŠÙ‡"
-                  }
-              ]
+  "version": "2",
+  "launcherVersion": "1.3.4",
+  "launcherDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.4-launcher/TSA-Arabic-Launcher.exe",
+  "notes": "Any game in this list appears in the launcher. Add an object to publish. Delete it or set enabled=false to hide. New games default to update/{id}/manifest.json on GitHub.",
+  "games": [
+    {
+      "id": "kingsroad",
+      "enabled": true,
+      "availability": "available",
+      "nameEn": "Game of Thrones: Kingsroad",
+      "nameAr": "صراع العروش: الطريق الملكي",
+      "steamAppId": "3183280",
+      "commonFolderName": "Game of Thrones Kingsroad",
+      "installMode": "singlePak",
+      "paksRelativeDir": "ProjectT/Content/Paks",
+      "exeRelativePath": "ProjectT/Binaries/Win64/ProjectT-Win64-Shipping.exe",
+      "pakFileName": "ProjectT-Windows_P.pak",
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/version.json"
+    },
+    {
+      "id": "palworld",
+      "enabled": true,
+      "availability": "available",
+      "nameEn": "Palworld",
+      "nameAr": "بالوورلد",
+      "steamAppId": "1623730",
+      "commonFolderName": "Palworld",
+      "installMode": "manifestBundle",
+      "paksRelativeDir": "Pal/Content/Paks",
+      "exeRelativePath": "Pal/Binaries/Win64/Palworld-Win64-Shipping.exe",
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/palworld/manifest.json",
+      "ensureEnglishCulture": true
+    },
+    {
+      "id": "crimson-desert",
+      "enabled": true,
+      "availability": "available",
+      "nameEn": "Crimson Desert",
+      "nameAr": "الصحراء القرمزية",
+      "steamAppId": "3321460",
+      "commonFolderName": "Crimson Desert",
+      "installMode": "scriptedApply",
+      "exeRelativePath": "bin64/CrimsonDesert.exe",
+      "applyScriptRelativePath": "tools/apply_launcher_pack.py",
+      "requiredDirs": ["0012", "0020"],
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
+      "version": "1.0.0",
+      "changelog": "تعريب عربي + خط 3dil + إصلاحات الكلاود الآمنة (ترجمة / واجهة / keyguide)."
+    },
+    {
+      "id": "big-ambitions",
+      "enabled": true,
+      "availability": "available",
+      "nameEn": "Big Ambitions",
+      "nameAr": "طموحات كبرى",
+      "steamAppId": "1331550",
+      "commonFolderName": "Big Ambitions",
+      "installMode": "scriptedApply",
+      "exeRelativePath": "Big Ambitions.exe",
+      "applyScriptRelativePath": "patch/install_tsa.ps1",
+      "requiredDirs": ["Big Ambitions_Data"],
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
+      "version": "1.0.0",
+      "changelog": "تعريب عربي شامل + خط Rubik + أسماء وعناوين وواجهات."
+    },
+    {
+      "id": "soon-2",
+      "enabled": true,
+      "availability": "comingSoon",
+      "nameEn": "TSA Project #2",
+      "nameAr": "مشروع TSA #2",
+      "teaserTitle": "قيد التطوير",
+      "teaserSubtitle": "تابع TSA للتنبيه"
+    }
+  ]
 }
