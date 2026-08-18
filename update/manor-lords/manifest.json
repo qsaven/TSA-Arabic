@@ -1,0 +1,28 @@
+{
+  "id": "manor-lords",
+  "name": "Manor Lords Arabic TSA",
+  "version": "1.0.0",
+  "changelog": "تعريب عربي شامل — واجهات، مباني، مهام، ودبلوماسية. اضبط لغة Steam على English.",
+  "game": "Manor Lords",
+  "language_slot": "en",
+  "steam_language": "English",
+  "description": "Arabic localization for Manor Lords (TSA)",
+  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/manor-lords/",
+  "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/manor-lords/manifest.json",
+  "files": [
+    {
+      "file": "paks/zArabicTSA_P.pak",
+      "install_to": "ManorLords/Content/Paks/~mods/zArabicTSA_P.pak",
+      "role": "translation",
+      "size_bytes": 12056773,
+      "sha256": "c94b01e9253f62f77dbc1e9ef84eca21b50edcdbdbf8dff7fdb78bd06fcf8429"
+    }
+  ],
+  "remove_on_install": [
+    "ManorLords/Content/Paks/zArabicTSA_P.pak"
+  ],
+  "notes": [
+    "Install zArabicTSA_P.pak into ManorLords/Content/Paks/~mods/",
+    "Set Steam game language to English"
+  ]
+}
