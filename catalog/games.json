@@ -39,7 +39,7 @@
     {
       "id": "crimson-desert",
       "enabled": true,
-      "availability": "available",
+      "availability": "maintenanceMode",
       "nameEn": "Crimson Desert",
       "nameAr": "الصحراء القرمزية",
       "steamAppId": "3321460",
