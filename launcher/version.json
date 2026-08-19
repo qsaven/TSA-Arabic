@@ -1,10 +1,10 @@
 ﻿{
-  "version": "1.3.10",
+  "version": "1.3.11",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.10-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.10-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "إصلاح إزالة تعريب أسياد العزبة — يحذف ملفات ~mods حتى ترجع اللعبة إنجليزي",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.11-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.11-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "Crimson Desert v1.0.3 — تحميل ~12 MB ثم باتch 0012 محلي تلقائياً. Big Ambitions lite ~23 MB. إصلاح التحقق بعد التثبيت.",
   "minVersion": "1.3.0",
-  "sha256": "ce9926ad8724cf638206e30aceced728b5489a7a5dc9ea1aad804078dfe68f34",
-  "sizeBytes": 84673624
+  "sha256": "1057db7010bdef7e1eabfa0a9dc7d935cd54bf039e65a1260ae66564312b3c85",
+  "sizeBytes": 84674480
 }
