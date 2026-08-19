@@ -1,8 +1,8 @@
 {
   "id": "crimson-desert",
   "name": "Crimson Desert Arabic TSA",
-  "version": "1.0.3",
-  "changelog": "تحميل ~12 MB فقط — ترجمة 0020 + خطوط TTF. باتش 0012 يُطبَّق محلياً على ملفات اللعبة (مثل مثبتات العالم).",
+  "version": "1.0.4",
+  "changelog": "إصلاح 404 — مسارات خطوط TTF على GitHub Release (بدون مجلد fonts/).",
   "game": "Crimson Desert",
   "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.3-crimson-desert/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
@@ -22,21 +22,21 @@
       "sha256": "10805c98e2e267ff1ad8bbdae7386ae5fde75fd19971b44717b0851921762cb3"
     },
     {
-      "file": "fonts/basefont.ttf",
+      "file": "basefont.ttf",
       "install_to": "_TSAArabic/fonts/basefont.ttf",
       "role": "font",
       "size_bytes": 287344,
       "sha256": "b666966140282ef0a9ae77d7f4cd18bdba1ae2f7631b34e482c81203fb1b1e19"
     },
     {
-      "file": "fonts/basefont_eng.ttf",
+      "file": "basefont_eng.ttf",
       "install_to": "_TSAArabic/fonts/basefont_eng.ttf",
       "role": "font",
       "size_bytes": 287344,
       "sha256": "b666966140282ef0a9ae77d7f4cd18bdba1ae2f7631b34e482c81203fb1b1e19"
     },
     {
-      "file": "fonts/creditfont.ttf",
+      "file": "creditfont.ttf",
       "install_to": "_TSAArabic/fonts/creditfont.ttf",
       "role": "font",
       "size_bytes": 4339004,
@@ -46,7 +46,7 @@
   "notes": [
     "اضبط لغة Steam على English",
     "أغلق اللعبة بالكامل قبل التثبيت",
-    "التحميل ~12 MB — بعدها اللانشر يطبّق خط 0012 على ملفات اللعبة محلياً (1–3 دقائق)",
-    "تحتاج Python + مجلد أدوات Crimson Desert في Documents"
+    "التحميل ~12 MB — بعدها اللانشر يطبّق خط 0012 محلياً (1–3 دقائق)",
+    "تحتاج Python + مجلد Documents\\Crimson Desert"
   ]
 }

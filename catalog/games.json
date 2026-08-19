@@ -50,8 +50,8 @@
       "requiredDirs": ["0012", "0020"],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/crimson-desert.png",
-      "version": "1.0.3",
-      "changelog": "تحميل ~12 MB + باتش 0012 محلي — نفس فكرة مثبتات العالم بدون 694 MB."
+      "version": "1.0.4",
+      "changelog": "إصلاح 404 — مسارات خطوط TTF على GitHub Release."
     },
     {
       "id": "big-ambitions",
