@@ -2,12 +2,34 @@
   "id": "crimson-desert",
   "name": "Crimson Desert Arabic TSA",
   "version": "1.0.0",
-  "changelog": "تعريب عربي + خط 3dil + إصلاحات الكلاود الآمنة (ترجمة / واجهة / keyguide).",
+  "changelog": "تعريب عربي + خط 3dil + CSS آمن — متوافق مع تحديث 19 أغسطس 2026",
   "game": "Crimson Desert",
-  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-crimson-desert/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
-  "files": [],
-  "notes": [
-    "File pack can be added here later. Until then the launcher uses the local apply script if present."
+  "files": [
+    {
+      "installTo": "0020/0.pamt",
+      "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-crimson-desert/crimson-desert-0020-0.pamt",
+      "sha256": "0d537ba4210888f95ff9f8ce9b50c4c7fd8ec366fb29352743d5233d3a8ff3e5",
+      "sizeBytes": 185
+    },
+    {
+      "installTo": "0020/0.paz",
+      "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-crimson-desert/crimson-desert-0020-0.paz",
+      "sha256": "10805c98e2e267ff1ad8bbdae7386ae5fde75fd19971b44717b0851921762cb3",
+      "sizeBytes": 7751456
+    },
+    {
+      "installTo": "0012/0.pamt",
+      "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-crimson-desert/crimson-desert-0012-0.pamt",
+      "sha256": "c5cd71e4777ba66f429e0fe04f226428d9ce865d5c4784a73290ff960e6bfd45",
+      "sizeBytes": 800865
+    },
+    {
+      "installTo": "0012/5.paz",
+      "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-crimson-desert/crimson-desert-0012-5.paz",
+      "sha256": "cf34fced7ef7bf4b18962f5309601aeebbb1aa069bb3a8f2969f7bab21965a0f",
+      "sizeBytes": 694574368
+    }
   ]
 }
