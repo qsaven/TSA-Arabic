@@ -49,8 +49,8 @@
       "requiredDirs": ["0012", "0020"],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/crimson-desert.png",
-      "version": "1.0.0",
-      "changelog": "تعريب عربي + خط 3dil + CSS آمن — متوافق مع تحديث 19 أغسطس 2026"
+      "version": "1.0.1",
+      "changelog": "حل مشكلة تعليق تثبيت التعريب بعد صيانة اللعبة + تحويل التثبيت إلى تحميل مباشر ثابت."
     },
     {
       "id": "big-ambitions",
