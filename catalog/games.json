@@ -38,7 +38,7 @@
     },
     {
       "id": "crimson-desert",
-      "enabled": true,
+      "enabled": false,
       "availability": "available",
       "nameEn": "Crimson Desert",
       "nameAr": "الصحراء القرمزية",
