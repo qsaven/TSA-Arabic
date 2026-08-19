@@ -49,8 +49,8 @@
       "requiredDirs": ["0012", "0020"],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/crimson-desert.png",
-      "version": "1.0.1",
-      "changelog": "حل مشكلة تعليق تثبيت التعريب بعد صيانة اللعبة + تحويل التثبيت إلى تحميل مباشر ثابت."
+      "version": "1.0.2",
+      "changelog": "تقليل حجم التحميل من ~702 MB إلى ~7.4 MB — حزمة الترجمة 0020 فقط."
     },
     {
       "id": "big-ambitions",

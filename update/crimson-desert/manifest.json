@@ -1,10 +1,10 @@
 {
   "id": "crimson-desert",
   "name": "Crimson Desert Arabic TSA",
-  "version": "1.0.1",
-  "changelog": "حل مشكلة تعليق تثبيت التعريب بعد صيانة اللعبة + تحويل التثبيت إلى تحميل مباشر ثابت.",
+  "version": "1.0.2",
+  "changelog": "تقليل حجم التحميل من ~702 MB إلى ~7.4 MB — حزمة الترجمة 0020 فقط (نفس فكرة ملف pak واحد).",
   "game": "Crimson Desert",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-crimson-desert/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.2-crimson-desert/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
   "files": [
     {
@@ -20,24 +20,12 @@
       "role": "translation",
       "size_bytes": 7751456,
       "sha256": "10805c98e2e267ff1ad8bbdae7386ae5fde75fd19971b44717b0851921762cb3"
-    },
-    {
-      "file": "crimson-desert-0012-0.pamt",
-      "install_to": "0012/0.pamt",
-      "role": "font",
-      "size_bytes": 800865,
-      "sha256": "c5cd71e4777ba66f429e0fe04f226428d9ce865d5c4784a73290ff960e6bfd45"
-    },
-    {
-      "file": "crimson-desert-0012-5.paz",
-      "install_to": "0012/5.paz",
-      "role": "font",
-      "size_bytes": 694574368,
-      "sha256": "cf34fced7ef7bf4b18962f5309601aeebbb1aa069bb3a8f2969f7bab21965a0f"
     }
   ],
   "notes": [
-    "Set Steam game language to English",
-    "Fully quit the game before installing"
+    "اضبط لغة Steam على English",
+    "أغلق اللعبة بالكامل قبل التثبيت",
+    "حزمة 0020 = الترجمة العربية فقط (~7 MB)",
+    "إذا ثبّت v1.0.0/v1.0.1 سابقاً: خط 0012 يبقى مثبتاً — لا حاجة لإعادة تحميل 694 MB"
   ]
 }
