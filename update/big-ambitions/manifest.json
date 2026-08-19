@@ -1,13 +1,65 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.0",
-  "changelog": "تعريب عربي شامل + خط Rubik + أسماء وعناوين وواجهات.",
+  "version": "1.0.1",
+  "changelog": "تحويل التثبيت إلى تحميل مباشر ثابت — لا يحتاج Python ولا صلاحيات مسؤول.",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.1-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
-  "files": [],
+  "files": [
+    {
+      "file": "big-ambitions-ar.json",
+      "install_to": "Big Ambitions_Data/StreamingAssets/locale/ar.json",
+      "role": "translation",
+      "size_bytes": 1229946,
+      "sha256": "76139eb6b09d0900cf76ed819a4b148adade681cf5882018e9e2425e2b7c3bfb"
+    },
+    {
+      "file": "big-ambitions-locale.json",
+      "install_to": "Big Ambitions_Data/StreamingAssets/locale/locale.json",
+      "role": "translation",
+      "size_bytes": 552,
+      "sha256": "d1e7103a1ecbc7601da8b683fd481380d43fbd583a2e5cc14f4752444633dfa7"
+    },
+    {
+      "file": "big-ambitions-catalog.json",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/catalog.json",
+      "role": "patch",
+      "size_bytes": 1352163,
+      "sha256": "555ad6b2d0d6de47ff32a1f62b3b03d62800959571e62d68979c93dcc5c2d329"
+    },
+    {
+      "file": "big-ambitions-resources.assets",
+      "install_to": "Big Ambitions_Data/resources.assets",
+      "role": "font",
+      "size_bytes": 21360600,
+      "sha256": "4b4cd663f659dfd67f43a55bb8eb1562d0c4a2e56811fd30ee3c10f5f689438e"
+    },
+    {
+      "file": "big-ambitions-loadingscreen.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_loadingscreen_556fe9b34d4617d814c92844fc0dda37.bundle",
+      "role": "font",
+      "size_bytes": 15384473,
+      "sha256": "cf35411936d2605080d6e8abddefebbc5a1d4d697599e2ebd264249a72fab748"
+    },
+    {
+      "file": "big-ambitions-ui.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_ui_2fde8bb7c0aff134b00354acac095d7a.bundle",
+      "role": "font",
+      "size_bytes": 11865377,
+      "sha256": "4f10059370a4738ebc4a4e6811f9aeccbc07b2dff49d15fae8595cd560cb7a7b"
+    },
+    {
+      "file": "big-ambitions-prefabs.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_prefabs_c89b0d89880bde738df9b931ff1d3c90.bundle",
+      "role": "patch",
+      "size_bytes": 1287403979,
+      "sha256": "9bc2b83a7ede24fb56ed4afeff6793213077fe7898257609fc27fcb0a9a6d438"
+    }
+  ],
   "notes": [
-    "File pack can be added here later. Until then the launcher uses the local apply script if present."
+    "اختر العربية من إعدادات اللعبة",
+    "أغلق اللعبة بالكامل قبل التثبيت",
+    "بعد تحديث Steam: أعد تثبيت التعريب من اللانشر"
   ]
 }
