@@ -1,7 +1,7 @@
 {
   "version": "2",
-  "launcherVersion": "1.3.11",
-  "launcherDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.11-launcher/TSA-Arabic-Launcher.exe",
+  "launcherVersion": "1.3.12",
+  "launcherDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.12-launcher/TSA-Arabic-Launcher.exe",
   "notes": "Any game in this list appears in the launcher. Add an object to publish. Delete it or set enabled=false to hide. New games default to update/{id}/manifest.json on GitHub.",
   "games": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "id": "crimson-desert",
-      "enabled": false,
+      "enabled": true,
       "availability": "available",
       "nameEn": "Crimson Desert",
       "nameAr": "الصحراء القرمزية",
@@ -47,11 +47,14 @@
       "installMode": "scriptedApply",
       "exeRelativePath": "bin64/CrimsonDesert.exe",
       "applyScriptRelativePath": "tools/apply_launcher_pack_lite.py",
-      "requiredDirs": ["0012", "0020"],
+      "requiredDirs": [
+        "0012",
+        "0020"
+      ],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/crimson-desert.png",
-      "version": "1.0.4",
-      "changelog": "إصلاح 404 — مسارات خطوط TTF على GitHub Release."
+      "version": "1.0.5",
+      "changelog": "تثبيت سريع ~12MB — الإعدادات — تعريب TSA — إصلاح الإزالة والحالة"
     },
     {
       "id": "big-ambitions",
@@ -63,11 +66,13 @@
       "commonFolderName": "Big Ambitions",
       "installMode": "manifestBundle",
       "exeRelativePath": "Big Ambitions.exe",
-      "requiredDirs": ["Big Ambitions_Data"],
+      "requiredDirs": [
+        "Big Ambitions_Data"
+      ],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/big-ambitions.png",
-      "version": "1.0.2",
-      "changelog": "تقليل حجم التحميل من ~1.3 GB إلى ~23 MB — ترجمة + خط فقط."
+      "version": "1.0.3",
+      "changelog": "إصلاح الإزالة: استرجاع ملفات اللعبة بدل الحذف (ما عاد القوائم تختفي) + حالة «غير مثبت» صحيحة بعد الإزالة — حدّث اللانشر أولاً."
     },
     {
       "id": "manor-lords",

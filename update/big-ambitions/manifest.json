@@ -1,8 +1,8 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.2",
-  "changelog": "تقليل حجم التحميل من ~1.3 GB إلى ~23 MB — ترجمة + خط فقط بدون bundles ضخمة.",
+  "version": "1.0.3",
+  "changelog": "إصلاح الإزالة: استرجاع ملفات اللعبة بدل الحذف (ما عاد القوائم تختفي) + حالة «غير مثبت» صحيحة بعد الإزالة — حدّث اللانشر أولاً.",
   "game": "Big Ambitions",
   "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.2-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",

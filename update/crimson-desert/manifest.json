@@ -1,10 +1,10 @@
 {
   "id": "crimson-desert",
   "name": "Crimson Desert Arabic TSA",
-  "version": "1.0.4",
-  "changelog": "إصلاح 404 — مسارات خطوط TTF على GitHub Release (بدون مجلد fonts/).",
+  "version": "1.0.5",
+  "changelog": "تثبيت سريع (~12MB) مثل بالوورلد، عنوان الشاشة: الإعدادات — تعريب TSA، إزالة نظيفة بدون Steam Verify، وإصلاح عرض الإصدار والحالة بعد الإزالة.",
   "game": "Crimson Desert",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.3-crimson-desert/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.5-crimson-desert/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
   "files": [
     {
@@ -12,14 +12,14 @@
       "install_to": "0020/0.pamt",
       "role": "translation",
       "size_bytes": 185,
-      "sha256": "0d537ba4210888f95ff9f8ce9b50c4c7fd8ec366fb29352743d5233d3a8ff3e5"
+      "sha256": "68c0423d74d5aa86cf1b37b5f9087ca91f6fb6017a884a0358448936a9693657"
     },
     {
       "file": "crimson-desert-0020-0.paz",
       "install_to": "0020/0.paz",
       "role": "translation",
-      "size_bytes": 7751456,
-      "sha256": "10805c98e2e267ff1ad8bbdae7386ae5fde75fd19971b44717b0851921762cb3"
+      "size_bytes": 7751264,
+      "sha256": "3a6aded995669d2e6173f1131449ca4166cdcbfa063c14bdca6a673b104496b8"
     },
     {
       "file": "basefont.ttf",
@@ -47,6 +47,6 @@
     "اضبط لغة Steam على English",
     "أغلق اللعبة بالكامل قبل التثبيت",
     "التحميل ~12 MB — بعدها اللانشر يطبّق خط 0012 محلياً (1–3 دقائق)",
-    "تحتاج Python + مجلد Documents\\Crimson Desert"
+    "تحتاج Python + مجلد Documents\\Crimson Desert (أدوات التثبيت)"
   ]
 }
