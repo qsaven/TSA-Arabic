@@ -1,10 +1,10 @@
 {
-  "version": "1.3.12",
+  "version": "1.3.13",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.12-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.12-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "صيانة: إصلاح إزالة Big Ambitions + حالة التثبيت، ودعم Crimson Desert v1.0.5 (تثبيت سريع + عنوان الإعدادات).",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.13-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.13-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "لعبة جديدة: Beast of Reincarnation v1.0.0 + إصلاح إزالة الحزم الإضافية (pak).",
   "minVersion": "1.3.0",
-  "sha256": "d6125e54e0e633081bf00fbe6d4c85b81387c9e95c0ede0487d8c740e89ab811",
-  "sizeBytes": 84677067
+  "sha256": "77e2b3bc9899d85e1e8a68283fc9c86ec4d89c7f3f8b4c1fc761f1a962f59565",
+  "sizeBytes": 84677241
 }

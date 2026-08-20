@@ -1,0 +1,45 @@
+{
+  "id": "beast-of-reincarnation",
+  "name": "Beast of Reincarnation Arabic TSA",
+  "version": "1.0.0",
+  "changelog": "تعريب عربي كامل + خط TSA — تثبيت/إزالة عبر اللانشر (~23MB)",
+  "game": "Beast of Reincarnation",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-beast-of-reincarnation/",
+  "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/beast-of-reincarnation/manifest.json",
+  "files": [
+    {
+      "file": "zzzTSA_P.pak",
+      "install_to": "BeastOfReincarnation/Content/Paks/zzzTSA_P.pak",
+      "role": "translation",
+      "size_bytes": 4124559,
+      "sha256": "9f47b63306d4d2925d1c58dee0f2fc865ab63fdc489870668ba364c710d9e84a"
+    },
+    {
+      "file": "zzzTSA_P.utoc",
+      "install_to": "BeastOfReincarnation/Content/Paks/zzzTSA_P.utoc",
+      "role": "other",
+      "size_bytes": 15862,
+      "sha256": "722540ba38033e02f484385cdcf724f23d07daff0a7f1033cfc25955df8d7511"
+    },
+    {
+      "file": "zzzTSA_P.ucas",
+      "install_to": "BeastOfReincarnation/Content/Paks/zzzTSA_P.ucas",
+      "role": "other",
+      "size_bytes": 19547344,
+      "sha256": "0aa9287461a34f469915a4db5162c5bebc2ccaf9e8dedd80001782b848561c35"
+    }
+  ],
+  "remove_on_install": [
+    "BeastOfReincarnation/Content/Paks/zArabicBOR_P.pak",
+    "BeastOfReincarnation/Content/Paks/zFontArabicBOR_P.pak",
+    "BeastOfReincarnation/Content/Paks/zzzFontArabicBOR_P.pak",
+    "BeastOfReincarnation/Content/Paks/~mods/zzzTSA_P.pak",
+    "BeastOfReincarnation/Content/Paks/~mods/zzzTSA_P.utoc",
+    "BeastOfReincarnation/Content/Paks/~mods/zzzTSA_P.ucas"
+  ],
+  "notes": [
+    "اضبط لغة Steam على English إن لزم",
+    "أغلق اللعبة بالكامل قبل التثبيت/الإزالة",
+    "الملفات تُنسخ إلى BeastOfReincarnation/Content/Paks/"
+  ]
+}
