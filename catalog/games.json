@@ -46,7 +46,7 @@
       "commonFolderName": "Crimson Desert",
       "installMode": "scriptedApply",
       "exeRelativePath": "bin64/CrimsonDesert.exe",
-      "applyScriptRelativePath": "tools/apply_launcher_pack_lite.py",
+      "applyScriptRelativePath": "tools/TSA-Crimson-Apply.exe",
       "requiredDirs": [
         "0012",
         "0020"
@@ -54,7 +54,7 @@
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/crimson-desert.png",
       "version": "1.0.5",
-      "changelog": "تثبيت سريع ~12MB — الإعدادات — تعريب TSA — إصلاح الإزالة والحالة"
+      "changelog": "تثبيت بدون Python — تحميل أدوات تلقائي + إصلاح رسالة مسار خاطئة"
     },
     {
       "id": "big-ambitions",
