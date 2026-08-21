@@ -1,10 +1,10 @@
 ﻿{
-  "version": "1.3.16",
+  "version": "1.3.17",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.16-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.16-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "Crimson Desert: tooling v1.0.2 includes UI CSS + English fonts. Local install/uninstall verified.",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.17-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.17-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "Crimson: لا تعلق وهمي على 95%% — تقدّم حقيقي أثناء تعديل 0012 + منع تثبيت/إزالة متوازي.",
   "minVersion": "1.3.0",
-  "sha256": "17109b3b67896d86138fff0e128ce110d52ff5e0bd01c689eff813efc9ca41a8",
-  "sizeBytes": 84678586
+  "sha256": "e396b01ef06a949b2c40d072c8474d3cbdafc251ff9ed09575a23eb5f06175d2",
+  "sizeBytes": 84679229
 }
