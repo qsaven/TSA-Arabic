@@ -110,6 +110,26 @@
       "ensureEnglishCulture": true,
       "version": "1.0.0",
       "changelog": "تعريب عربي كامل + خط TSA — تثبيت/إزالة عبر اللانشر (~23MB)"
+    },
+    {
+      "id": "mortal-shell-ii",
+      "enabled": true,
+      "availability": "available",
+      "nameEn": "Mortal Shell II",
+      "nameAr": "مورتال شل II",
+      "steamAppId": "2584270",
+      "commonFolderName": "Sparta",
+      "installMode": "manifestBundle",
+      "paksRelativeDir": "MortalShell2/Content/Paks",
+      "exeRelativePath": "MortalShell2/Binaries/Win64/MortalShell2-Win64-Shipping.exe",
+      "requiredDirs": [
+        "MortalShell2"
+      ],
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/mortal-shell-ii/manifest.json",
+      "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/mortal-shell-ii.png",
+      "ensureEnglishCulture": true,
+      "version": "1.0.0",
+      "changelog": "تعريب عربي + خط TSA — تثبيت/إزالة عبر اللانشر (~8MB)"
     }
   ]
 }

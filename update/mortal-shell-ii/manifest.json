@@ -1,0 +1,48 @@
+{
+  "id": "mortal-shell-ii",
+  "name": "Mortal Shell II Arabic TSA",
+  "version": "1.0.0",
+  "changelog": "تعريب عربي + خط TSA — تثبيت/إزالة عبر اللانشر (~8MB)",
+  "game": "Mortal Shell II",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-mortal-shell-ii/",
+  "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/mortal-shell-ii/manifest.json",
+  "files": [
+    {
+      "file": "zzzTSA_P.pak",
+      "install_to": "MortalShell2/Content/Paks/zzzTSA_P.pak",
+      "role": "translation",
+      "size_bytes": 4566601,
+      "sha256": "0C511B2F4502FF9E5E683988DE686C18289F2FF61F6B5CF357BAD09BB4963B3C"
+    },
+    {
+      "file": "zzzTSA_P.utoc",
+      "install_to": "MortalShell2/Content/Paks/zzzTSA_P.utoc",
+      "role": "other",
+      "size_bytes": 842,
+      "sha256": "34DB530B83BC34093AA1D87E8104FDA2D038490B84C5C5BBE1D56CB5E3DDF9CA"
+    },
+    {
+      "file": "zzzTSA_P.ucas",
+      "install_to": "MortalShell2/Content/Paks/zzzTSA_P.ucas",
+      "role": "other",
+      "size_bytes": 3488560,
+      "sha256": "07497BC1F6C5736ADEEC329893FA0DC1014EC49766AECB7EAD9C37300CFC402B"
+    }
+  ],
+  "remove_on_install": [
+    "MortalShell2/Content/Paks/MortalShell2-Arabic_P.pak",
+    "MortalShell2/Content/Paks/MortalShell2-Arabic_P.utoc",
+    "MortalShell2/Content/Paks/MortalShell2-Arabic_P.ucas",
+    "MortalShell2/Content/Paks/~mods/MortalShell2-Arabic_P.pak",
+    "MortalShell2/Content/Paks/~mods/MortalShell2-Arabic_P.utoc",
+    "MortalShell2/Content/Paks/~mods/MortalShell2-Arabic_P.ucas",
+    "MortalShell2/Content/Paks/~mods/zzzTSA_P.pak",
+    "MortalShell2/Content/Paks/~mods/zzzTSA_P.utoc",
+    "MortalShell2/Content/Paks/~mods/zzzTSA_P.ucas"
+  ],
+  "notes": [
+    "اضبط لغة Steam على English إن لزم",
+    "أغلق اللعبة بالكامل قبل التثبيت/الإزالة",
+    "الملفات تُنسخ إلى MortalShell2/Content/Paks/"
+  ]
+}
