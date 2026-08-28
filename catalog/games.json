@@ -71,8 +71,8 @@
       ],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/big-ambitions.png",
-      "version": "1.0.3",
-      "changelog": "إصلاح الإزالة: استرجاع ملفات اللعبة بدل الحذف (ما عاد القوائم تختفي) + حالة «غير مثبت» صحيحة بعد الإزالة — حدّث اللانشر أولاً."
+      "version": "1.0.4",
+      "changelog": "تم إصدار تحديث جديد بعد إصدار اللعبة بشكل رسمي — تحديث الكلمات والنصوص الجديدة."
     },
     {
       "id": "manor-lords",

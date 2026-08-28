@@ -1,38 +1,37 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.3",
-  "changelog": "إصلاح الإزالة: استرجاع ملفات اللعبة بدل الحذف (ما عاد القوائم تختفي) + حالة «غير مثبت» صحيحة بعد الإزالة — حدّث اللانشر أولاً.",
+  "version": "1.0.4",
+  "changelog": "تم إصدار تحديث جديد بعد إصدار اللعبة بشكل رسمي — تحديث الكلمات والنصوص الجديدة.",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.2-big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.4-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
   "files": [
     {
       "file": "big-ambitions-ar.json",
       "install_to": "Big Ambitions_Data/StreamingAssets/locale/ar.json",
       "role": "translation",
-      "size_bytes": 1229946,
-      "sha256": "76139eb6b09d0900cf76ed819a4b148adade681cf5882018e9e2425e2b7c3bfb"
+      "size_bytes": 1339328,
+      "sha256": "c249bcd429a9e10beb2b2c48798947485fee2fef9646efe38c99b77d8201afd4"
     },
     {
       "file": "big-ambitions-locale.json",
       "install_to": "Big Ambitions_Data/StreamingAssets/locale/locale.json",
       "role": "translation",
-      "size_bytes": 552,
-      "sha256": "d1e7103a1ecbc7601da8b683fd481380d43fbd583a2e5cc14f4752444633dfa7"
+      "size_bytes": 511,
+      "sha256": "0c2fa9220a305026d1416ac73a79f4dd5929a95d0d2aa9bd790f2cc5dcd6d444"
     },
     {
       "file": "big-ambitions-resources.assets",
       "install_to": "Big Ambitions_Data/resources.assets",
       "role": "font",
-      "size_bytes": 21360600,
-      "sha256": "4b4cd663f659dfd67f43a55bb8eb1562d0c4a2e56811fd30ee3c10f5f689438e"
+      "size_bytes": 20791504,
+      "sha256": "d077e1691d0ded52d95b838c1aa458c7c8142a76e9c5df923a86215aa0bce6e9"
     }
   ],
   "notes": [
     "اختر العربية من إعدادات اللعبة",
     "أغلق اللعبة بالكامل قبل التثبيت",
-    "إذا ثبّت v1.0.1 سابقاً: تحقق من ملفات Steam لاسترجاع bundles الأصلية",
-    "بعد تحديث Steam: أعد تثبيت التعريب من اللانشر"
+    "بعد تحديث Steam الرسمي: حدّث التعريب من اللانشر"
   ]
 }
