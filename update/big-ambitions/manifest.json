@@ -1,10 +1,10 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.4",
-  "changelog": "تم إصدار تحديث جديد بعد إصدار اللعبة بشكل رسمي — تحديث الكلمات والنصوص الجديدة.",
+  "version": "1.0.5",
+  "changelog": "إصلاح علامات الاستفهام (????) — إضافة خطوط الواجهة + catalog بعد التحديث الرسمي 1.0.",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.4-big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.5-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
   "files": [
     {
@@ -22,16 +22,38 @@
       "sha256": "0c2fa9220a305026d1416ac73a79f4dd5929a95d0d2aa9bd790f2cc5dcd6d444"
     },
     {
-      "file": "big-ambitions-resources.assets",
-      "install_to": "Big Ambitions_Data/resources.assets",
+      "file": "big-ambitions-ui.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_ui_2fde8bb7c0aff134b00354acac095d7a.bundle",
       "role": "font",
-      "size_bytes": 20791504,
-      "sha256": "d077e1691d0ded52d95b838c1aa458c7c8142a76e9c5df923a86215aa0bce6e9"
+      "size_bytes": 11865377,
+      "sha256": "4f10059370a4738ebc4a4e6811f9aeccbc07b2dff49d15fae8595cd560cb7a7b"
+    },
+    {
+      "file": "big-ambitions-loadingscreen.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_loadingscreen_e1178d71f9460b296d0f03468c3e9827.bundle",
+      "role": "font",
+      "size_bytes": 15676921,
+      "sha256": "4232fe1c4318a2774a2c8503a18ca658a049212cb430fa041af72f4fab8c18f1"
+    },
+    {
+      "file": "big-ambitions-sharedassets0.assets",
+      "install_to": "Big Ambitions_Data/sharedassets0.assets",
+      "role": "font",
+      "size_bytes": 11873072,
+      "sha256": "9f0ab023bcb48fda2eec0d8d27b8322e137d01d66d36272ec93fc671676b1017"
+    },
+    {
+      "file": "big-ambitions-catalog.json",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/catalog.json",
+      "role": "other",
+      "size_bytes": 1714891,
+      "sha256": "06e98cde5c37de041bbff22ae99ba73fa9849fc85f6c1f5568c681d3ab1b4a68"
     }
   ],
+  "remove_on_install": [],
   "notes": [
     "اختر العربية من إعدادات اللعبة",
-    "أغلق اللعبة بالكامل قبل التثبيت",
-    "بعد تحديث Steam الرسمي: حدّث التعريب من اللانشر"
+    "أغلق اللعبة بالكامل قبل التثبيت/التحديث",
+    "بعد تحديث Steam: حدّث التعريب من اللانشر"
   ]
 }
