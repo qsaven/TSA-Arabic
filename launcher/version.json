@@ -1,10 +1,10 @@
 ﻿{
-  "version": "1.3.22",
+  "version": "1.3.23",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.22-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.22-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "Big Ambitions v1.0.8 lite (~40 MB) — استرجاع bundles العالم عند التحديث + إصلاح استمرار + تحميل بدون prefabs.",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.23-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.23-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "Big Ambitions v1.0.9: إصلاح القوائم المقلوبة + تحسين إصلاح زر «استمرار» (Recover Midnight / abo danh).",
   "minVersion": "1.3.0",
-  "sha256": "b2b29fc089f619082362962ed5dadc695f47ce854901df59697eacf5eceea77a",
-  "sizeBytes": 84685986
+  "sha256": "8b78fb283a24cf8708ce828c5ae152feb46896c37b2bc0853a970c12a05defe8",
+  "sizeBytes": 84686199
 }

@@ -1,18 +1,18 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.8",
-  "changelog": "رجوع لحزمة lite (~40 MB) — قوائم ومهام عربي، لوحات المتاجر والخريطة إنجليزي. إصلاح زر «استمرار» عبر اللانشر v1.3.20+.",
+  "version": "1.0.9",
+  "changelog": "إصلاح عاجل: القوائم كانت مقلوبة في v1.0.8 — إعادة تشكيل RTL لـ ar.json + تحسين إصلاح زر «استمرار».",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.8-big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.9-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
   "files": [
     {
       "file": "big-ambitions-ar.json",
       "install_to": "Big Ambitions_Data/StreamingAssets/locale/ar.json",
       "role": "translation",
-      "size_bytes": 1333855,
-      "sha256": "28dd655d655773b248a0a9ac803203c09faf3f5d0e149980dba0e47c3bb4946a"
+      "size_bytes": 1339230,
+      "sha256": "fcf8e815d0dd8e9136876aa55ef3127b5d3f64b6079fb9c2089f28a77645a3fa"
     },
     {
       "file": "big-ambitions-locale.json",
@@ -53,8 +53,7 @@
   "notes": [
     "اختر العربية من إعدادات اللعبة",
     "أغلق اللعبة بالكامل قبل التثبيت/التحديث",
-    "هذا الإصدار ~40 MB — لوحات المتاجر وأسماء الخريطة تبقى إنجليزي",
-    "حدّث اللانشر إلى v1.3.20+ لإصلاح زر «استمرار» تلقائياً",
-    "من v1.0.6/7: اللانcher يحاول استرجاع bundles العالم من النسخة الاحتياطية"
+    "v1.0.9 يصلّح القوائم المقلوبة من v1.0.8 (~40 MB)",
+    "حدّث اللانشر إلى v1.3.23+ لإصلاح «استمرار» المحسّن"
   ]
 }
