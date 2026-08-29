@@ -2,7 +2,7 @@
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
   "version": "1.0.7",
-  "changelog": "إصلاح لوحات المتاجر والاستفهامات — خط Rubik SDF للوحات المنتجات، تعريب أسماء المباني على الخريطة، وإصلاح (45؟) في المسافة.",
+  "changelog": "إصلاح لوحات المتاجر والاستفهامات — خط Rubik SDF للوحات المنتجات، تعريب أسماء المباني على الخريطة، وإصلاح (45؟) في المسافة. اللانشر v1.3.19+ يصلّح زر «استمرار» تلقائياً بعد التثبيت.",
   "game": "Big Ambitions",
   "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.7-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
@@ -67,6 +67,7 @@
   "notes": [
     "اختر العربية من إعدادات اللعبة",
     "أغلق اللعبة بالكامل قبل التثبيت/التحديث",
-    "v1.0.7 يحدّث prefabs + buildings — لوحات المنتجات وأسماء الأماكن على الخريطة"
+    "v1.0.7 يحدّث prefabs + buildings — لوحات المنتجات وأسماء الأماكن على الخريطة",
+    "حدّث اللانشر إلى v1.3.19+ لإصلاح زر «استمرار» وحفظ abo danh تلقائياً"
   ]
 }
