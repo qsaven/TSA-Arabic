@@ -1,10 +1,10 @@
-﻿{
-  "version": "1.3.24",
+{
+  "version": "1.3.25",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.24-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.24-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "Big Ambitions: إصلاح زر «استمرار» — اختيار الشخصية/الحفظ الأنسب تلقائياً، إصلاح أسماء الحفظ المعكوسة، وتحديث lastPlayedDate.",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.25-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.25-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "إصلاح التحديث التلقائي (BOM + cache) + Continue save fix لـ Big Ambitions.",
   "minVersion": "1.3.0",
-  "sha256": "ec04927adee6840b50b26f3a5ab4ab62c629ec255d2885b38fd354a40a6d1a4b",
-  "sizeBytes": 84689498
+  "sha256": "8eda1187996426f6d03b90ff9c8b9955c55594b7ea054064e6822a79bd174254",
+  "sizeBytes": 84689701
 }
