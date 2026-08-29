@@ -1,18 +1,18 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.7",
-  "changelog": "إصلاح لوحات المتاجر والاستفهامات — خط Rubik SDF للوحات المنتجات، تعريب أسماء المباني على الخريطة، وإصلاح (45؟) في المسافة. اللانشر v1.3.20+ يصلّح زر «استمرار» تلقائياً.",
+  "version": "1.0.8",
+  "changelog": "رجوع لحزمة lite (~40 MB) — قوائم ومهام عربي، لوحات المتاجر والخريطة إنجليزي. إصلاح زر «استمرار» عبر اللانشر v1.3.20+.",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.7-big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.8-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
   "files": [
     {
       "file": "big-ambitions-ar.json",
       "install_to": "Big Ambitions_Data/StreamingAssets/locale/ar.json",
       "role": "translation",
-      "size_bytes": 1339340,
-      "sha256": "06afb282a98bdb8b201419de9f86f21c24d512ea885ca4b07f8a421de260e5c1"
+      "size_bytes": 1333855,
+      "sha256": "28dd655d655773b248a0a9ac803203c09faf3f5d0e149980dba0e47c3bb4946a"
     },
     {
       "file": "big-ambitions-locale.json",
@@ -20,6 +20,20 @@
       "role": "translation",
       "size_bytes": 511,
       "sha256": "0c2fa9220a305026d1416ac73a79f4dd5929a95d0d2aa9bd790f2cc5dcd6d444"
+    },
+    {
+      "file": "big-ambitions-sharedassets0.assets",
+      "install_to": "Big Ambitions_Data/sharedassets0.assets",
+      "role": "font",
+      "size_bytes": 11873072,
+      "sha256": "9f0ab023bcb48fda2eec0d8d27b8322e137d01d66d36272ec93fc671676b1017"
+    },
+    {
+      "file": "big-ambitions-catalog.json",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/catalog.json",
+      "role": "other",
+      "size_bytes": 1719023,
+      "sha256": "8f0f1a89aae640c066857f3a647d28296fca381febeea522b82bd663a6cdc6f3"
     },
     {
       "file": "big-ambitions-ui.bundle",
@@ -34,40 +48,13 @@
       "role": "font",
       "size_bytes": 15676921,
       "sha256": "4232fe1c4318a2774a2c8503a18ca658a049212cb430fa041af72f4fab8c18f1"
-    },
-    {
-      "file": "big-ambitions-prefabs.bundle",
-      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_prefabs_0146e9498064125aadf5854824151704.bundle",
-      "role": "font",
-      "size_bytes": 1226595979,
-      "sha256": "61fc999c48e3c45af2e4018a163e768f0f2c6aa48b4ae77dc5b28db5578073d4"
-    },
-    {
-      "file": "big-ambitions-buildings.bundle",
-      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_buildings_315a21b97e4c8875754f0af9266f9ebf.bundle",
-      "role": "other",
-      "size_bytes": 1635473,
-      "sha256": "119499f833998e53cb55c563cf0429456d0fc23a605a370f394e955b67a42d0c"
-    },
-    {
-      "file": "big-ambitions-sharedassets0.assets",
-      "install_to": "Big Ambitions_Data/sharedassets0.assets",
-      "role": "font",
-      "size_bytes": 11873072,
-      "sha256": "9f0ab023bcb48fda2eec0d8d27b8322e137d01d66d36272ec93fc671676b1017"
-    },
-    {
-      "file": "big-ambitions-catalog.json",
-      "install_to": "Big Ambitions_Data/StreamingAssets/aa/catalog.json",
-      "role": "other",
-      "size_bytes": 1714891,
-      "sha256": "06e98cde5c37de041bbff22ae99ba73fa9849fc85f6c1f5568c681d3ab1b4a68"
     }
   ],
   "notes": [
     "اختر العربية من إعدادات اللعبة",
     "أغلق اللعبة بالكامل قبل التثبيت/التحديث",
-    "v1.0.7 يحدّث prefabs + buildings — لوحات المنتجات وأسماء الأماكن على الخريطة",
-    "حدّث اللانشر إلى v1.3.20+ لإصلاح زر «استمرار» وحفظ abo danh تلقائياً"
+    "هذا الإصدار ~40 MB — لوحات المتاجر وأسماء الخريطة تبقى إنجليزي",
+    "حدّث اللانشر إلى v1.3.20+ لإصلاح زر «استمرار» تلقائياً",
+    "من v1.0.6/7: اللانcher يحاول استرجاع bundles العالم من النسخة الاحتياطية"
   ]
 }
