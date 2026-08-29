@@ -1,10 +1,10 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.5",
-  "changelog": "إصلاح علامات الاستفهام (????) — إضافة خطوط الواجهة + catalog بعد التحديث الرسمي 1.0.",
+  "version": "1.0.6",
+  "changelog": "إصلاح استفهامات تحديد السيارة والواجهات داخل اللعب — إضافة prefabs bundle مع خطوط عربية.",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.5-big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.6-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
   "files": [
     {
@@ -36,6 +36,13 @@
       "sha256": "4232fe1c4318a2774a2c8503a18ca658a049212cb430fa041af72f4fab8c18f1"
     },
     {
+      "file": "big-ambitions-prefabs.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_prefabs_0146e9498064125aadf5854824151704.bundle",
+      "role": "font",
+      "size_bytes": 1226595979,
+      "sha256": "a165cb75ddea4c8af3ee9ca33e11cb5dd9caa5a451e8e3b9203e2397b257f358"
+    },
+    {
       "file": "big-ambitions-sharedassets0.assets",
       "install_to": "Big Ambitions_Data/sharedassets0.assets",
       "role": "font",
@@ -54,6 +61,6 @@
   "notes": [
     "اختر العربية من إعدادات اللعبة",
     "أغلق اللعبة بالكامل قبل التثبيت/التحديث",
-    "بعد تحديث Steam: حدّث التعريب من اللانشر"
+    "التحديث v1.0.6 يحمّل ~1.1 GB إضافية (prefabs) لإصلاح واجهات داخل اللعب"
   ]
 }

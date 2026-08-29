@@ -71,8 +71,8 @@
       ],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/big-ambitions.png",
-      "version": "1.0.5",
-      "changelog": "إصلاح علامات الاستفهام (????) — إضافة خطوط الواجهة + catalog بعد التحديث الرسمي 1.0."
+      "version": "1.0.6",
+      "changelog": "إصلاح استفهامات تحديد السيارة والواجهات داخل اللعب — إضافة prefabs bundle مع خطوط عربية."
     },
     {
       "id": "manor-lords",
