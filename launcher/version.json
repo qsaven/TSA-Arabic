@@ -1,10 +1,10 @@
 ﻿{
-  "version": "1.3.19",
+  "version": "1.3.20",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.19-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.19-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "Big Ambitions: إصلاح زر «استمرار» تلقائياً بعد التثبيت (نسخ حفظ EA 0.11 + إزالة علامات المود القديم).",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.20-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.20-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "Big Ambitions: إصلاح زر «استمرار» تلقائياً — عند التثبيت أو عند فتح اللانcher إذا التعريب مثبّت.",
   "minVersion": "1.3.0",
-  "sha256": "5b3a493bd9e1dada2ac658368302b07a91065c94b89d7fab7ef8464305794d50",
-  "sizeBytes": 84683047
+  "sha256": "74aaad491970d5e896c2324a066dd8dbfe1c5d2ff36be457bb0cd7d1b8a8bde9",
+  "sizeBytes": 84683439
 }
