@@ -1,18 +1,18 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.6",
-  "changelog": "إصلاح استفهامات تحديد السيارة والواجهات داخل اللعب — إضافة prefabs bundle مع خطوط عربية.",
+  "version": "1.0.7",
+  "changelog": "إصلاح لوحات المتاجر والاستفهامات — خط Rubik SDF للوحات المنتجات، تعريب أسماء المباني على الخريطة، وإصلاح (45؟) في المسافة.",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.6-big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.7-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
   "files": [
     {
       "file": "big-ambitions-ar.json",
       "install_to": "Big Ambitions_Data/StreamingAssets/locale/ar.json",
       "role": "translation",
-      "size_bytes": 1339328,
-      "sha256": "c249bcd429a9e10beb2b2c48798947485fee2fef9646efe38c99b77d8201afd4"
+      "size_bytes": 1339340,
+      "sha256": "06afb282a98bdb8b201419de9f86f21c24d512ea885ca4b07f8a421de260e5c1"
     },
     {
       "file": "big-ambitions-locale.json",
@@ -40,7 +40,14 @@
       "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_prefabs_0146e9498064125aadf5854824151704.bundle",
       "role": "font",
       "size_bytes": 1226595979,
-      "sha256": "a165cb75ddea4c8af3ee9ca33e11cb5dd9caa5a451e8e3b9203e2397b257f358"
+      "sha256": "61fc999c48e3c45af2e4018a163e768f0f2c6aa48b4ae77dc5b28db5578073d4"
+    },
+    {
+      "file": "big-ambitions-buildings.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_buildings_315a21b97e4c8875754f0af9266f9ebf.bundle",
+      "role": "other",
+      "size_bytes": 1635473,
+      "sha256": "119499f833998e53cb55c563cf0429456d0fc23a605a370f394e955b67a42d0c"
     },
     {
       "file": "big-ambitions-sharedassets0.assets",
@@ -57,10 +64,9 @@
       "sha256": "06e98cde5c37de041bbff22ae99ba73fa9849fc85f6c1f5568c681d3ab1b4a68"
     }
   ],
-  "remove_on_install": [],
   "notes": [
     "اختر العربية من إعدادات اللعبة",
     "أغلق اللعبة بالكامل قبل التثبيت/التحديث",
-    "التحديث v1.0.6 يحمّل ~1.1 GB إضافية (prefabs) لإصلاح واجهات داخل اللعب"
+    "v1.0.7 يحدّث prefabs + buildings — لوحات المنتجات وأسماء الأماكن على الخريطة"
   ]
 }

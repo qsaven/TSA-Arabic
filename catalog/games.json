@@ -71,8 +71,8 @@
       ],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/big-ambitions.png",
-      "version": "1.0.6",
-      "changelog": "إصلاح استفهامات تحديد السيارة والواجهات داخل اللعب — إضافة prefabs bundle مع خطوط عربية."
+      "version": "1.0.7",
+      "changelog": "إصلاح لوحات المتاجر والاستفهامات — خط Rubik SDF للوحات المنتجات، تعريب أسماء المباني على الخريطة، وإصلاح (45؟) في المسافة."
     },
     {
       "id": "manor-lords",
