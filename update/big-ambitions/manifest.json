@@ -1,32 +1,18 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.10",
-  "changelog": "إصلاح QN9/أسماء الحفظ المعكوبة: قوالب new_character_save_game بدون تشكيل bidi + اللانشر يصلّح الحفظات القديمة.",
+  "version": "1.0.11",
+  "changelog": "إصلاح جذري لـ Continue (اسم التخزينة): قوالب الحفظ إنجليزي فقط + اللانشر يصلح الأسماء المعطوبة/العربية في .meta.",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.10-big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.11-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
   "files": [
     {
       "file": "big-ambitions-ar.json",
       "install_to": "Big Ambitions_Data/StreamingAssets/locale/ar.json",
       "role": "translation",
-      "size_bytes": 1339200,
-      "sha256": "e88e27ff87cf799e8ca9fbb1f563569f766f1f27cdec9de7bb88c86739797060"
-    },
-    {
-      "file": "big-ambitions-catalog.json",
-      "install_to": "Big Ambitions_Data/StreamingAssets/aa/catalog.json",
-      "role": "other",
-      "size_bytes": 1719023,
-      "sha256": "8f0f1a89aae640c066857f3a647d28296fca381febeea522b82bd663a6cdc6f3"
-    },
-    {
-      "file": "big-ambitions-loadingscreen.bundle",
-      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_loadingscreen_e1178d71f9460b296d0f03468c3e9827.bundle",
-      "role": "font",
-      "size_bytes": 15676921,
-      "sha256": "4232fe1c4318a2774a2c8503a18ca658a049212cb430fa041af72f4fab8c18f1"
+      "size_bytes": 1339191,
+      "sha256": "8d5f65d4681d13d2ce828729fe213d69ed73d084b63868b524289ac4561db640"
     },
     {
       "file": "big-ambitions-locale.json",
@@ -43,16 +29,30 @@
       "sha256": "9f0ab023bcb48fda2eec0d8d27b8322e137d01d66d36272ec93fc671676b1017"
     },
     {
+      "file": "big-ambitions-catalog.json",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/catalog.json",
+      "role": "other",
+      "size_bytes": 1719023,
+      "sha256": "8f0f1a89aae640c066857f3a647d28296fca381febeea522b82bd663a6cdc6f3"
+    },
+    {
       "file": "big-ambitions-ui.bundle",
       "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_ui_2fde8bb7c0aff134b00354acac095d7a.bundle",
       "role": "font",
       "size_bytes": 11865377,
       "sha256": "4f10059370a4738ebc4a4e6811f9aeccbc07b2dff49d15fae8595cd560cb7a7b"
+    },
+    {
+      "file": "big-ambitions-loadingscreen.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_loadingscreen_e1178d71f9460b296d0f03468c3e9827.bundle",
+      "role": "font",
+      "size_bytes": 15676921,
+      "sha256": "4232fe1c4318a2774a2c8503a18ca658a049212cb430fa041af72f4fab8c18f1"
     }
   ],
   "notes": [
     "اختر العربية من إعدادات اللعبة",
-    "أغلق اللعبة بالكامل قبل التثبيت/التحديث",
-    "v1.0.10 يصلّح أسماء الحفظ (QN9) + حدّث اللانشر v1.3.26+"
+    "أغلق اللعبة قبل التحديث",
+    "v1.0.11 + اللانشر v1.3.27 = إصلاح اسم التخزينة بين أقواس استمرار"
   ]
 }
