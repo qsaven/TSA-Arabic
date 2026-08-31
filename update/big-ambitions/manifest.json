@@ -1,18 +1,18 @@
 {
   "id": "big-ambitions",
   "name": "Big Ambitions Arabic TSA",
-  "version": "1.0.11",
-  "changelog": "إصلاح جذري لـ Continue (اسم التخزينة): قوالب الحفظ إنجليزي فقط + اللانشر يصلح الأسماء المعطوبة/العربية في .meta.",
+  "version": "1.0.12",
+  "changelog": "تعريب أسماء الأنشطة/المنافسين + تطبيقات الجوال (بيزمان/إيكونوفيو/…) + إصلاحات واجهة. بدون prefabs (~48 MB).",
   "game": "Big Ambitions",
-  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.11-big-ambitions/",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.12-big-ambitions/",
   "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
   "files": [
     {
       "file": "big-ambitions-ar.json",
       "install_to": "Big Ambitions_Data/StreamingAssets/locale/ar.json",
       "role": "translation",
-      "size_bytes": 1339191,
-      "sha256": "8d5f65d4681d13d2ce828729fe213d69ed73d084b63868b524289ac4561db640"
+      "size_bytes": 1339326,
+      "sha256": "a5b4b38c6b0c283591d83b86cbee58296593a4c389f9493e7b22d1d182c8ddbe"
     },
     {
       "file": "big-ambitions-locale.json",
@@ -32,8 +32,8 @@
       "file": "big-ambitions-catalog.json",
       "install_to": "Big Ambitions_Data/StreamingAssets/aa/catalog.json",
       "role": "other",
-      "size_bytes": 1719023,
-      "sha256": "8f0f1a89aae640c066857f3a647d28296fca381febeea522b82bd663a6cdc6f3"
+      "size_bytes": 1714883,
+      "sha256": "435e3ffad9214a3e1bceb9cbed2b65d25cac4767ab103909a2c35a07b7f59f1d"
     },
     {
       "file": "big-ambitions-ui.bundle",
@@ -48,11 +48,47 @@
       "role": "font",
       "size_bytes": 15676921,
       "sha256": "4232fe1c4318a2774a2c8503a18ca658a049212cb430fa041af72f4fab8c18f1"
+    },
+    {
+      "file": "big-ambitions-rivals.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_rivals_1e133dbbaac4f5c1606d52ddef448c93.bundle",
+      "role": "translation",
+      "size_bytes": 5556483,
+      "sha256": "ea108f36b869ace9b5e849e486669a2b0377327f64c63e2d73922148cc78c0fb"
+    },
+    {
+      "file": "big-ambitions-aibusiness.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_aibusinessdefaults_dae2f99fe7d146db7258f35456441670.bundle",
+      "role": "translation",
+      "size_bytes": 84883,
+      "sha256": "44dc7b6a13053fe2da66ddfdbd3a782056710576abecc17fc70eb7594af65ca5"
+    },
+    {
+      "file": "big-ambitions-citizens.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_citizendataexamples_9de1892a7e0af65d4a2e80ebbea92b48.bundle",
+      "role": "translation",
+      "size_bytes": 215747,
+      "sha256": "53cfe9891c3f1a989cf00ed15400fd6e220b8b18cb8da39ac0e92029b2e7b8b6"
+    },
+    {
+      "file": "big-ambitions-buildings.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_buildings_315a21b97e4c8875754f0af9266f9ebf.bundle",
+      "role": "translation",
+      "size_bytes": 1636177,
+      "sha256": "7b972f40138dcbd5cba5791a35f8455038d3b4b11212739ece19c7a3aa2386a5"
+    },
+    {
+      "file": "big-ambitions-specialnpc.bundle",
+      "install_to": "Big Ambitions_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_specialnpcdata_d17443cb360f3895587a06a3437bae07.bundle",
+      "role": "translation",
+      "size_bytes": 11411,
+      "sha256": "306c37f4c3cd235e85cc868b16607aab1c6aeac5591bdd36bd357fe44b78a315"
     }
   ],
   "notes": [
     "اختر العربية من إعدادات اللعبة",
-    "أغلق اللعبة قبل التحديث",
-    "v1.0.11 + اللانشر v1.3.27 = إصلاح اسم التخزينة بين أقواس استمرار"
+    "أغلق اللعبة بالكامل قبل التحديث",
+    "حزمة ~48 MB — قوائم + أسماء أنشطة/منافسين. لوحات المتاجر في الشارع تبقى إنجليزي لحين حل ملف prefabs الكبير",
+    "اللانشر الحالي يكفي — لا يلزم تحديث لانشر لهذا الإصدار"
   ]
 }

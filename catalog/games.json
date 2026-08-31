@@ -71,8 +71,8 @@
       ],
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/big-ambitions/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/big-ambitions.png",
-      "version": "1.0.11",
-      "changelog": "v1.0.11 — إصلاح اسم التخزينة في زر استمرار (QN9) + اللانشر v1.3.27."
+      "version": "1.0.12",
+      "changelog": "v1.0.12 — أسماء الأنشطة/المنافسين عربي + تطبيقات الجوال. ~48 MB بدون prefabs. لا يلزم تحديث لانشر."
     },
     {
       "id": "manor-lords",
