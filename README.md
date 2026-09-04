@@ -12,8 +12,11 @@
 
 - **Game of Thrones: Kingsroad** — تعريب كامل
 - **Palworld** — تعريب + خط عربي
-- **Crimson Desert** — تعريب كامل
 - **Big Ambitions** — تعريب كامل
+- **Manor Lords** — تعريب كامل
+- **Beast of Reincarnation** — تعريب كامل
+- **Mortal Shell II** — تعريب كامل
+- **The Blood of Dawnwalker** — تعريب كامل
 
 ### مميزات اللانشر
 
