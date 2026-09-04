@@ -125,7 +125,7 @@
       "requiredDirs": [
         "Dawnwalker"
       ],
-      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/blood-of-dawnwalker/manifest.json",
+      "manifestUrl": "https://cdn.jsdelivr.net/gh/qsaven/TSA-Arabic@main/update/blood-of-dawnwalker/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/blood-of-dawnwalker.jpg",
       "ensureEnglishCulture": true,
       "version": "1.0.0",
