@@ -128,8 +128,8 @@
       "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/blood-of-dawnwalker/manifest.json",
       "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/blood-of-dawnwalker.jpg",
       "ensureEnglishCulture": true,
-      "version": "1.0.2",
-      "changelog": "تعريب عربي كامل — قوائم، حوار، مهام، وشاشات البداية. أسماء المتحدثين يمين + خط TSA (~19MB). مقترح: abdullah"
+      "version": "1.0.0",
+      "changelog": "تعريب عربي كامل — الإصدار الأول الرسمي (~3 MB). مقترح: abdullah"
     }
   ]
 }
