@@ -1,13 +1,13 @@
 {
-  "version": "1.3.24",
+  "version": "1.3.28",
   "gameNameEn": "TSA Arabic Launcher",
   "gameNameAr": "لانشر التعريبات العربية",
   "brand": "TSA Community",
-  "taglineAr": "لانشر واحد — Kingsroad • Palworld • Crimson Desert • Big Ambitions • Manor Lords • Beast of Reincarnation • Mortal Shell II",
+  "taglineAr": "لانشر واحد — Kingsroad • Palworld • Big Ambitions • Manor Lords • Beast of Reincarnation • Mortal Shell II • دم سائر الفجر",
   "taglineEn": "One launcher — remote updates from GitHub",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.24-launcher/TSA-Arabic-Launcher.exe",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.28-launcher/TSA-Arabic-Launcher.exe",
   "discordUrl": "https://discord.gg/Tsa1",
   "steamAppId": "",
-  "changelog": "Big Ambitions: إصلاح زر «استمرار» — اختيار الحفظ/الشخصية تلقائياً + أسماء معكوسة.",
-  "updated": "2026-08-30"
+  "changelog": "دم سائر الفجر v1.0.2 — تعريب كامل. إزالة الصحراء القرمزية (عربي رسمي).",
+  "updated": "2026-09-04"
 }

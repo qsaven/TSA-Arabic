@@ -37,26 +37,6 @@
       "version": "1.0.4"
     },
     {
-      "id": "crimson-desert",
-      "enabled": true,
-      "availability": "available",
-      "nameEn": "Crimson Desert",
-      "nameAr": "الصحراء القرمزية",
-      "steamAppId": "3321460",
-      "commonFolderName": "Crimson Desert",
-      "installMode": "scriptedApply",
-      "exeRelativePath": "bin64/CrimsonDesert.exe",
-      "applyScriptRelativePath": "tools/TSA-Crimson-Apply.exe",
-      "requiredDirs": [
-        "0012",
-        "0020"
-      ],
-      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/crimson-desert/manifest.json",
-      "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/crimson-desert.png",
-      "version": "1.0.5",
-      "changelog": "تثبيت بدون Python — تحميل أدوات تلقائي + إصلاح رسالة مسار خاطئة"
-    },
-    {
       "id": "big-ambitions",
       "enabled": true,
       "availability": "available",
@@ -130,6 +110,26 @@
       "ensureEnglishCulture": true,
       "version": "1.0.0",
       "changelog": "تعريب عربي + خط TSA — تثبيت/إزالة عبر اللانشر (~8MB)"
+    },
+    {
+      "id": "blood-of-dawnwalker",
+      "enabled": true,
+      "availability": "available",
+      "nameEn": "The Blood of Dawnwalker",
+      "nameAr": "دم سائر الفجر",
+      "steamAppId": "3751260",
+      "commonFolderName": "The Blood of Dawnwalker",
+      "installMode": "manifestBundle",
+      "paksRelativeDir": "Dawnwalker/Content/Paks",
+      "exeRelativePath": "Dawnwalker/Binaries/Win64/Dawnwalker.exe",
+      "requiredDirs": [
+        "Dawnwalker"
+      ],
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/blood-of-dawnwalker/manifest.json",
+      "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/blood-of-dawnwalker.jpg",
+      "ensureEnglishCulture": true,
+      "version": "1.0.2",
+      "changelog": "تعريب عربي كامل — قوائم، حوار، مهام، وشاشات البداية. أسماء المتحدثين يمين + خط TSA (~19MB). مقترح: abdullah"
     }
   ]
 }

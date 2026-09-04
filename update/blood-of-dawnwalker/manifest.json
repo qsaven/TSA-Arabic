@@ -1,0 +1,111 @@
+{
+  "id": "blood-of-dawnwalker",
+  "name": "The Blood of Dawnwalker Arabic TSA",
+  "version": "1.0.2",
+  "changelog": "تعريب عربي كامل — قوائم، حوار، مهام، وشاشات البداية. أسماء المتحدثين يمين + خط TSA (~19MB). مقترح: abdullah",
+  "game": "The Blood of Dawnwalker",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.2-blood-of-dawnwalker/",
+  "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/blood-of-dawnwalker/manifest.json",
+  "files": [
+    {
+      "file": "zArabicDawnwalker_P.pak",
+      "install_to": "Dawnwalker/Content/Paks/~mods/zArabicDawnwalker_P.pak",
+      "role": "translation",
+      "size_bytes": 3123899,
+      "sha256": "80261fc70343d5d4364bf7ab3ad8ae218232aa33dfb1e30cac1fbff099fac3e6"
+    },
+    {
+      "file": "zArabicDialogueRTL_P.pak",
+      "install_to": "Dawnwalker/Content/Paks/~mods/zArabicDialogueRTL_P.pak",
+      "role": "other",
+      "size_bytes": 7226,
+      "sha256": "3be3d5c9c8b896429976334d912b5372916c6a463581e2da6a6c832f26ef3791"
+    },
+    {
+      "file": "zArabicDialogueRTL_P.utoc",
+      "install_to": "Dawnwalker/Content/Paks/~mods/zArabicDialogueRTL_P.utoc",
+      "role": "other",
+      "size_bytes": 629,
+      "sha256": "49ba638400dd423f74d2e68b1c54907c9636a90e8d0034ce9f941ea3bb42cbeb"
+    },
+    {
+      "file": "zArabicDialogueRTL_P.ucas",
+      "install_to": "Dawnwalker/Content/Paks/~mods/zArabicDialogueRTL_P.ucas",
+      "role": "other",
+      "size_bytes": 14132,
+      "sha256": "0058a33f319eddb8fb67732b42f45f70d20e0548175d9bb976752de5ca90f179"
+    },
+    {
+      "file": "zArabicStartup_P.pak",
+      "install_to": "Dawnwalker/Content/Paks/~mods/zArabicStartup_P.pak",
+      "role": "other",
+      "size_bytes": 3590,
+      "sha256": "64728721358db93c30685eabc17f0476c88d29509ee26b241234d44bdad25040"
+    },
+    {
+      "file": "zArabicStartup_P.ucas",
+      "install_to": "Dawnwalker/Content/Paks/~mods/zArabicStartup_P.ucas",
+      "role": "other",
+      "size_bytes": 3221,
+      "sha256": "f958783cafcc13844c747ab5859c21ba5668880b653134a23cbf0a25c00babb8"
+    },
+    {
+      "file": "zArabicStartup_P.utoc",
+      "install_to": "Dawnwalker/Content/Paks/~mods/zArabicStartup_P.utoc",
+      "role": "other",
+      "size_bytes": 620,
+      "sha256": "f3f0ec6b44b3f9b40c5604f77d743a48a253c6e578c511daca6720c0a4c0448f"
+    },
+    {
+      "file": "dwmapi.dll",
+      "install_to": "Dawnwalker/Binaries/Win64/dwmapi.dll",
+      "role": "other",
+      "size_bytes": 58368,
+      "sha256": "ce596412befa68c30b7f88f65beb77d9bdad55e9b96a276a5a9cf690c63f24bb"
+    },
+    {
+      "file": "UE4SS.dll",
+      "install_to": "Dawnwalker/Binaries/Win64/UE4SS.dll",
+      "role": "other",
+      "size_bytes": 16263680,
+      "sha256": "8ac18fbffc1ef96b0662d4a2d537b3f224c26d65caaba7989a9404c566102b26"
+    },
+    {
+      "file": "UE4SS-settings.ini",
+      "install_to": "Dawnwalker/Binaries/Win64/UE4SS-settings.ini",
+      "role": "other",
+      "size_bytes": 5044,
+      "sha256": "b3a9a1eb5b11f93413cd1c64278cdcdf5c6099601eaf2d8056da39b289a0914b"
+    },
+    {
+      "file": "mods.txt",
+      "install_to": "Dawnwalker/Binaries/Win64/Mods/mods.txt",
+      "role": "other",
+      "size_bytes": 23,
+      "sha256": "8d7c2a8e04b7b02cf8a7048b32d2195d3d0a3d94b3a3f5b49d2704d842744f42"
+    },
+    {
+      "file": "main.lua",
+      "install_to": "Dawnwalker/Binaries/Win64/Mods/ArabicSubtitleRTL/Scripts/main.lua",
+      "role": "other",
+      "size_bytes": 3367,
+      "sha256": "1094563d6036b9510d66c5327dcf084c82356b202747874dc00afeaf5682cf5c"
+    }
+  ],
+  "remove_on_install": [
+    "Dawnwalker/Content/Paks/zArabicDawnwalker_P.pak",
+    "Dawnwalker/Content/Paks/~mods/zArabicDawnwalker_P.pak",
+    "Dawnwalker/Content/Paks/~mods/zArabicDialogueRTL_P.pak",
+    "Dawnwalker/Content/Paks/~mods/zArabicDialogueRTL_P.utoc",
+    "Dawnwalker/Content/Paks/~mods/zArabicDialogueRTL_P.ucas",
+    "Dawnwalker/Content/Paks/~mods/zArabicStartup_P.pak",
+    "Dawnwalker/Content/Paks/~mods/zArabicStartup_P.utoc",
+    "Dawnwalker/Content/Paks/~mods/zArabicStartup_P.ucas"
+  ],
+  "notes": [
+    "اضبط لغة Steam على English",
+    "أغلق اللعبة بالكامل قبل التثبيت/الإزالة",
+    "يتضمن UE4SS لترتيب أسماء المتحدثين (يمين)",
+    "شاشات البداية مضمّنة داخل zArabicDawnwalker_P.pak"
+  ]
+}
