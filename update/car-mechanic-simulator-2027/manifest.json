@@ -1,0 +1,31 @@
+{
+  "id": "car-mechanic-simulator-2027",
+  "name": "Car Mechanic Simulator 2027 Arabic TSA",
+  "version": "1.0.0",
+  "changelog": "الإصدار الأول: تعريب عربي كامل لـ 11,108 نصوص مع دعم اتصال الحروف واتجاه RTL وخط عربي مدمج.",
+  "game": "Car Mechanic Simulator 2027 - Multiplayer Demo",
+  "updateBaseUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.0.0-car-mechanic-simulator-2027/",
+  "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/car-mechanic-simulator-2027/manifest.json",
+  "files": [
+    {
+      "file": "Arabic.txt",
+      "install_to": "Car Mechanic Simulator 2027 Demo_Data/StreamingAssets/Localizations/Arabic.txt",
+      "role": "translation",
+      "size_bytes": 809874,
+      "sha256": "76d85a42f05bbbf752248bdaa3680111ae7b7769f28c9183e340a4c80ed3c9b5"
+    },
+    {
+      "file": "resources.assets",
+      "install_to": "Car Mechanic Simulator 2027 Demo_Data/resources.assets",
+      "role": "font",
+      "size_bytes": 611684216,
+      "sha256": "38cebf5d50e2dd1ea32b8f3a20bd3a4655cb597119ce22f0eac30aecf3338b21"
+    }
+  ],
+  "notes": [
+    "التعريب مخصص للنسخة التجريبية متعددة اللاعبين على Steam (App ID 4307740)",
+    "أغلق اللعبة بالكامل قبل التثبيت أو التحديث",
+    "اللانشر يحفظ النسخة الأصلية ويعيدها عند إزالة التعريب",
+    "اختر العربية من قائمة اللغات داخل اللعبة بعد التثبيت"
+  ]
+}

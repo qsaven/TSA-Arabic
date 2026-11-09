@@ -1,9 +1,28 @@
 {
   "version": "3",
-  "launcherVersion": "1.3.28",
-  "launcherDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.28-launcher/TSA-Arabic-Launcher.exe",
+  "launcherVersion": "2.0.1",
+  "launcherDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v2.0.1-launcher/TSA-Arabic-Launcher.exe",
   "notes": "Any game in this list appears in the launcher. Add an object to publish. Delete it or set enabled=false to hide. New games default to update/{id}/manifest.json on GitHub.",
   "games": [
+    {
+      "id": "car-mechanic-simulator-2027",
+      "enabled": true,
+      "availability": "available",
+      "nameEn": "Car Mechanic Simulator 2027 - Multiplayer Demo",
+      "nameAr": "محاكي ميكانيكي السيارات 2027",
+      "steamAppId": "4307740",
+      "commonFolderName": "Car Mechanic Simulator 2027 Demo",
+      "installMode": "manifestBundle",
+      "paksRelativeDir": "Car Mechanic Simulator 2027 Demo_Data",
+      "exeRelativePath": "Car Mechanic Simulator 2027 Demo.exe",
+      "requiredDirs": [
+        "Car Mechanic Simulator 2027 Demo_Data"
+      ],
+      "manifestUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/update/car-mechanic-simulator-2027/manifest.json",
+      "coverUrl": "https://raw.githubusercontent.com/qsaven/TSA-Arabic/main/covers/car-mechanic-simulator-2027.jpg",
+      "version": "1.0.0",
+      "changelog": "الإصدار الأول — 11,108 نصوص عربية مع إصلاح RTL وخط عربي مدمج."
+    },
     {
       "id": "kingsroad",
       "enabled": true,

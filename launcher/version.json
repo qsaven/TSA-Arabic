@@ -1,10 +1,10 @@
 {
-  "version": "1.3.28",
+  "version": "2.0.1",
   "channel": "stable",
-  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.28-launcher/TSA-Arabic-Launcher.exe",
-  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v1.3.28-launcher/TSA-Arabic-Launcher.exe",
-  "changelog": "Big Ambitions Continue: Arabic character names no longer appear in save titles (fixes disconnected letters).",
+  "downloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v2.0.1-launcher/TSA-Arabic-Launcher.exe",
+  "rawDownloadUrl": "https://github.com/qsaven/TSA-Arabic/releases/download/v2.0.1-launcher/TSA-Arabic-Launcher.exe",
+  "changelog": "إضافة تعريب محاكي ميكانيكي السيارات 2027، وتحسين النسخ الاحتياطي واستعادة ملفات اللعبة الأصلية عند إزالة التعريب.",
   "minVersion": "1.3.0",
-  "sha256": "8dd89e4c275f687391f59f24d47e393b3b1e9c3dbda0b95f371c1a9555b0ef62",
-  "sizeBytes": 84689228
+  "sha256": "fc8147d33fe550cf4b42ab602cdb16c00818a12f88f93b3443c2428b615c6e0b",
+  "sizeBytes": 182738026
 }
